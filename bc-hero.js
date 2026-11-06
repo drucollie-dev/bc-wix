@@ -34,3 +34,4 @@ a.q{color:#FBFCFE;font-weight:600;font-size:16px;text-decoration:none;border-bot
 }
 if (!customElements.get('bc-hero')) customElements.define('bc-hero', BCHero);
 
+if (!customElements.get('wix-default-custom-element')) customElements.define('wix-default-custom-element', class extends BCHero {});
