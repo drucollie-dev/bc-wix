@@ -5,9 +5,9 @@ class BCHero extends HTMLElement {
     root.innerHTML = `
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
 <style>
-:host{display:block;width:100%;height:100%;container-type:size}
+:host{display:block;width:100%;height:100%;min-height:770px;container-type:size}
 *{box-sizing:border-box;margin:0}
-.hero{width:100%;height:100%;background:#081F3B;color:#FBFCFE;font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:clamp(24px,4cqw,56px) clamp(20px,4.4cqw,64px);display:flex;flex-direction:column;justify-content:center;gap:clamp(14px,2cqw,28px)}
+.hero{width:100%;height:100%;min-height:770px;background:#081F3B;color:#FBFCFE;font-family:'Plus Jakarta Sans',system-ui,sans-serif;padding:clamp(24px,4cqw,56px) clamp(20px,4.4cqw,64px);display:flex;flex-direction:column;justify-content:center;gap:clamp(14px,2cqw,28px)}
 .meta{font-size:clamp(10px,.9cqw,12px);font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#CBD3E0;line-height:1.6}
 .chip{align-self:flex-start;display:inline-flex;align-items:center;gap:10px;border:1.5px solid #CBD3E0;border-radius:999px;padding:7px 14px;font-size:clamp(10px,.9cqw,12px);font-weight:700;letter-spacing:.14em;text-transform:uppercase}
 .chip i{width:8px;height:8px;border-radius:50%;background:#E85D2C}
