@@ -18,7 +18,7 @@ p.sub{max-width:34ch;font-size:clamp(17px,1.7cqw,22px);line-height:1.5}
 a.btn{display:inline-flex;align-items:center;justify-content:center;min-height:56px;padding:0 32px;border-radius:999px;background:#E85D2C;color:#081F3B;font-weight:800;font-size:17px;text-decoration:none}
 a.btn:hover{background:#f06c3d}
 a.q{color:#FBFCFE;font-weight:600;font-size:16px;text-decoration:none;border-bottom:2px solid currentColor;padding-bottom:2px}
-@container (max-width:520px){.hero{padding:96px 24px 40px;gap:22px;justify-content:flex-start}h1{font-size:14.5cqw}p.sub{font-size:18px}.meta,.chip{font-size:11px}}
+@container (max-width:520px){.hero{padding:28px 24px 36px;justify-content:space-between}h1{font-size:14.5cqw}p.sub{font-size:18px}.meta,.chip{font-size:11px}}
 @media (max-width:520px){a.btn{width:100%}}
 </style>
 <section class="hero">
