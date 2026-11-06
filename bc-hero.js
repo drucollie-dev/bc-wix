@@ -33,5 +33,4 @@ a.q{color:#FBFCFE;font-weight:600;font-size:16px;text-decoration:none;border-bot
   }
 }
 if (!customElements.get('bc-hero')) customElements.define('bc-hero', BCHero);
-@drucollie-dev
-Comment
+
