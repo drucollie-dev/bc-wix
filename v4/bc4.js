@@ -644,6 +644,10 @@
     Object.keys(M).forEach(function (n) { if (!customElements.get(p + n)) customElements.define(p + n, class extends M[n] {}); });
   });
 
+  /* Unique tag for the story block with the owners photo, so it never loses the
+     first-definition race to an older pinned script on the same page. */
+  if (!customElements.get('bc4-story')) customElements.define('bc4-story', class extends PStory {});
+
   var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-issue2': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
   Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, TAGS[t]); });
 
