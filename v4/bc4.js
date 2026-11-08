@@ -216,7 +216,7 @@
         '.is-m .iss{padding:56px 24px 56px}.is-m .j1{font-size:40px}.is-m .j2{font-size:28px;transform:rotate(4deg) translateY(-12px)}.is-m .j3{font-size:58px}.is-m .jum{gap:6px 12px}.is-m .j4{font-size:16px;transform:rotate(5deg) translateY(-4px)}' +
         '.is-m .jum{display:block;font-size:40px;font-weight:300;letter-spacing:-.035em;line-height:1.05}.is-m .jum span{display:inline;transform:none;font-size:inherit;font-weight:inherit;font-style:normal;letter-spacing:inherit;text-transform:none}' +
         '.is-m h2{font-size:52px}.is-m .two{flex-direction:column;gap:28px;margin-top:36px}.is-m .body{font-size:18px}.is-m .stake{font-size:26px}' +
-        '.is-m .split{flex-direction:column}.is-m .half{flex:none;min-height:0;padding:40px 24px;justify-content:flex-start;gap:28px}.is-m .big{font-size:60px}';
+        '.is-m .split{flex-direction:column}.is-m .half{flex:none;min-height:0;padding:40px 24px 64px;justify-content:flex-start;gap:28px}.is-m .big{font-size:60px}';
     }
     html() {
       return '<section class="ink iss"><p class="jum" aria-label="Stop doing more marketing."><span class="j1" aria-hidden="true">Stop</span> <span class="j2" aria-hidden="true">doing</span> <span class="j3" aria-hidden="true">more</span> <span class="j4" aria-hidden="true">marketing</span></p>' +
@@ -235,7 +235,7 @@
         '.ph h2{position:relative;padding:0 48px 56px;font-size:136px;line-height:.86;letter-spacing:-.06em;font-weight:800;color:' + CLOUD + '}' +
         '.bios{padding:88px 48px 120px;display:flex;flex-wrap:wrap;gap:56px 88px}.bio{flex:1 1 400px}.nm{font-size:44px;font-weight:800;letter-spacing:-.04em}.rl{margin-top:8px;font-size:16px;font-weight:600;color:' + SLATE + '}.bl{margin-top:22px;font-size:22px;line-height:1.45;font-weight:300}' +
         '.stats{flex:1 1 100%;display:flex;border-top:3px solid ' + INK + '}.stats div{flex:1 1 0;padding:26px 22px 0 0}.n{font-size:96px;font-weight:800;letter-spacing:-.06em;line-height:.9}.stats p+p{margin-top:12px;font-size:17px;color:' + SLATE + '}' +
-        '.is-m .ph{height:520px}.is-m .ph h2{font-size:56px;padding:0 24px 32px}.is-m .bios{padding:40px 24px 56px;gap:32px}.is-m .bio{flex-basis:100%}.is-m .nm{font-size:34px}.is-m .bl{font-size:19px}' +
+        '.is-m .ph{height:430px}.is-m .ph img{object-position:76% 30%}.is-m .ph h2{font-size:56px;padding:0 24px 32px}.is-m .bios{padding:40px 24px 56px;gap:32px}.is-m .bio{flex-basis:100%}.is-m .nm{font-size:34px}.is-m .bl{font-size:19px}' +
         '.is-m .stats{flex-direction:column}.is-m .stats div{padding:20px 0 0}.is-m .n{font-size:64px}';
     }
     html() {
