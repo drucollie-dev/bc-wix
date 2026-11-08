@@ -77,7 +77,7 @@
       this.page.style.minHeight = '';
       var h = this.getBoundingClientRect().height;
       var n = this.page.getBoundingClientRect().height;
-      this.page.style.minHeight = h > n + 1 ? (h / z) + 'px' : '';
+      this.page.style.minHeight = m === 'd' && h > n + 1 ? (h / z) + 'px' : '';
     }
     css() { return ''; }
     html() { return ''; }
