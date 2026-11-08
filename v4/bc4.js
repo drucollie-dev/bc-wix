@@ -70,6 +70,9 @@
         this.page = this.shadowRoot.querySelector('.page');
         this.after(m);
       }
+      /* On phones the content sets the height. Do not fill the box, or the Wix
+         editor locks in old heights. */
+      this.style.height = m === 'm' ? 'auto' : '';
       var z = w / (m === 'm' ? 390 : 1280);
       this.page.style.zoom = String(z);
       /* Fill the box only when Wix gives it a fixed height. When the height is
