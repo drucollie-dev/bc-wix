@@ -315,6 +315,13 @@
     ['What happens on the 20-minute call?', 'You tell us where you\'re headed and what\'s getting in the way. We\'ll ask a few questions and tell you honestly whether we\'re the right fit. No pitch deck.']
   ];
   var WORDMARK = '<svg viewBox="0 0 894.5 223.47" role="img" aria-label="Blue Collie Studio" style="display:block;width:100%;height:auto" fill="#FBFCFE"><path d="M114.841,115.061c0,20.68-13.42,43.56-49.061,43.56H0V7.04h61.38c27.721,0,45.541,16.72,45.541,39.161,0,10.56-3.96,26.4-21.341,31.46,20.021,2.86,29.261,20.02,29.261,37.4ZM58.96,37.181h-24.42v29.04h24.2c8.14,0,13.64-5.28,13.64-14.52,0-7.7-3.960-14.52-13.42-14.52ZM61.601,128.481c12.319,0,18.479-8.36,18.479-16.94,0-7.92-5.5-16.94-18.479-16.94h-27.061v33.88h27.061Z"/><path d="M122.541,158.621V0h32.56v158.621h-32.56Z"/><path d="M238.038,55.88h32.561v102.741h-32.561v-17.6c-3.52,14.3-20.02,20.24-29.479,20.24-27.28,0-40.701-18.48-40.701-49.94v-55.44h32.561v53.46c0,15.84,9.46,21.78,17.82,21.78,8.58,0,19.8-4.62,19.8-21.78v-53.46Z"/><path d="M387.856,116.821h-75.24c3.08,9.9,11.66,16.06,23.98,16.06,9.68,0,19.58-4.4,25.96-10.56l16.72,21.12c-10.12,11-27.72,17.82-44.88,17.82-32.561,0-55.44-22.44-55.440-53.68,0-33.44,25.74-54.34,55.22-54.34s54.121,20.68,54.121,51.92c0,2.86-.221,6.6-.44,11.66ZM355.956,97.681c-.439-10.12-9.46-16.94-21.12-16.94-9.68,0-19.14,4.62-22.439,16.94h43.56Z"/><path d="M392.47,82.5c0-42.68,34.32-78.1,77.001-78.1,26.62,0,49.939,13.42,63.8,33.66l-26.84,18.7c-7.92-12.32-19.58-19.8-35.42-19.8-25.521,0-43.78,20.46-43.78,45.54s17.6,46.201,43.56,46.201c16.061,0,27.721-7.48,35.641-19.8l26.84,18.7c-13.86,20.24-37.18,33.66-63.8,33.66-42.681,0-77.001-35.64-77.001-78.761Z"/><path d="M531.51,107.361c0-32.56,26.4-54.12,55.66-54.12s55.88,21.56,55.88,54.12c0,32.34-26.62,53.9-55.88,53.9s-55.66-21.56-55.66-53.9ZM609.83,107.361c0-14.08-10.12-23.98-22.66-23.98s-22.66,9.9-22.66,23.98,10.12,23.76,22.66,23.76,22.66-9.68,22.66-23.76Z"/><path d="M650.967,158.621V0h32.561v158.621h-32.561Z"/><path d="M697.604,158.621V0h32.561v158.621h-32.561Z"/><path d="M740.281,21.561c0-10.78,9.24-18.92,20.24-18.92s19.801,8.14,19.801,18.92c0,10.34-8.801,18.92-19.801,18.92s-20.24-8.58-20.24-18.92ZM744.241,158.621V55.88h32.561v102.741h-32.561Z"/><path d="M894.06,116.821h-75.24c3.08,9.9,11.66,16.06,23.98,16.06,9.68,0,19.58-4.4,25.96-10.56l16.72,21.12c-10.12,11-27.72,17.82-44.88,17.82-32.561,0-55.44-22.44-55.44-53.68,0-33.44,25.74-54.34,55.221-54.34s54.12,20.68,54.12,51.92c0,2.86-.22,6.6-.44,11.66ZM862.16,97.681c-.44-10.12-9.461-16.94-21.12-16.94-9.681,0-19.141,4.62-22.44,16.94h43.561Z"/><path d="M287.887,211.921h5.609c.11,3.245,3.135,6.379,7.864,6.379,4.51,0,7.149-2.859,7.149-5.994,0-3.354-3.025-4.949-6.104-5.774l-4.839-1.209c-8.084-2.035-9.404-6.819-9.404-9.954,0-6.654,5.884-11.108,12.593-11.108,6.819,0,12.154,4.289,12.154,11.219h-5.609c0-3.575-2.805-6.05-6.709-6.05-3.575,0-6.764,2.365-6.764,5.829,0,1.21.385,3.685,5.169,4.95l4.785,1.319c6.379,1.705,10.394,4.949,10.394,10.504,0,6.324-5.169,11.438-12.813,11.438-8.083,0-13.473-5.444-13.473-11.549Z"/><path d="M367.908,184.92v5.169h-11.273v32.721h-5.664v-32.721h-11.274v-5.169h28.211Z"/><path d="M395.686,209.776v-24.856h5.664v24.802c0,5.773,3.85,8.358,8.304,8.358s8.359-2.585,8.359-8.358v-24.802h5.664v24.856c0,8.688-6.489,13.693-14.023,13.693s-13.968-5.005-13.968-13.693Z"/><path d="M470.153,184.92c10.833,0,17.158,8.249,17.158,19.027,0,10.724-6.324,18.862-17.158,18.862h-14.738v-37.89h14.738ZM470.153,217.641c7.589,0,11.493-5.994,11.493-13.693s-3.904-13.858-11.493-13.858h-9.074v27.552h9.074Z"/><path d="M517.18,222.81v-37.89h5.664v37.89h-5.664Z"/><path d="M552.544,203.947c0-10.778,8.359-19.688,19.138-19.688,10.833,0,19.248,8.909,19.248,19.688,0,10.724-8.414,19.522-19.248,19.522-10.779,0-19.138-8.799-19.138-19.522ZM585.265,203.947c0-7.81-5.829-14.408-13.583-14.408-7.699,0-13.473,6.599-13.473,14.408,0,7.754,5.774,14.243,13.473,14.243,7.754,0,13.583-6.489,13.583-14.243Z"/></svg>';
+  function FOOT() {
+    return '<div class="wm">' + WORDMARK + '</div>' +
+        '<div class="fgrid"><div class="fcol w"><p class="tl">Big-picture thinking' + DOT + '<br>Hands-on execution' + DOT + '</p><p class="ds">A strategy and creative studio in Nashville, Tennessee. Run by its owners, Renée and Drü Collie.</p></div>' +
+        '<nav class="fcol" aria-label="Footer"><p class="fh2">Explore</p><a href="/" target="_top" data-go="work">What we do</a><a href="/" target="_top" data-go="steps">How we work</a><a href="/" target="_top" data-go="owners">About</a><a href="' + CHURCH + '" target="_top">Churches &amp; Ministries</a><a href="/nonprofits" target="_top">Nonprofits</a><a href="' + CHECK + '" target="_top">The Clarity Check</a></nav>' +
+        '<div class="fcol"><p class="fh2">Talk with us</p><a href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><a href="/contact" target="_top">Contact</a><a href="tel:+16154790178">615.479.0178</a><a href="mailto:hello@bluecolliestudio.com">hello@bluecolliestudio.com</a></div></div>' +
+        '<div class="fbot"><span>© 2026 Blue Collie Studio</span><span>Nashville, Tennessee</span></div></section>';
+  }
   class Close extends Base {
     css() {
       return '.faq{padding:136px 48px 150px;display:flex;gap:88px;border-top:1px solid ' + MIST + '}.fh{flex:0 0 340px}.fh h2{font-size:96px;line-height:.88;letter-spacing:-.055em;font-weight:800}.fh p{margin-top:26px;font-size:18px;line-height:1.6;color:' + SLATE + '}' +
@@ -340,11 +347,7 @@
         '<h2 class="rise">Let\'s talk about your <b>next stage</b>' + DOT + '</h2><p class="sub">Tell us where you\'re headed, what\'s getting in the way, and what you want to build. In 20 minutes, you\'ll know whether we\'re the right partner.</p>' +
         '<p class="cc"><a class="ul" href="' + CHECK + '" target="_top">Not ready? Take the 5-minute Clarity Check →</a><small>Free · 13 questions · No email required</small></p></div>' +
         '<a class="disc" href="' + BOOK + '" target="_blank" rel="noopener"><span>Book a<br>20-minute call</span><i aria-hidden="true">→</i></a></div>' +
-        '<div class="wm">' + WORDMARK + '</div>' +
-        '<div class="fgrid"><div class="fcol w"><p class="tl">Big-picture thinking' + DOT + '<br>Hands-on execution' + DOT + '</p><p class="ds">A strategy and creative studio in Nashville, Tennessee. Run by its owners, Renée and Drü Collie.</p></div>' +
-        '<nav class="fcol" aria-label="Footer"><p class="fh2">Explore</p><a href="/" target="_top" data-go="work">What we do</a><a href="/" target="_top" data-go="steps">How we work</a><a href="/" target="_top" data-go="owners">About</a><a href="' + CHURCH + '" target="_top">Churches &amp; Ministries</a><a href="' + CHECK + '" target="_top">The Clarity Check</a></nav>' +
-        '<div class="fcol"><p class="fh2">Talk with us</p><a href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><a href="/contact" target="_top">Contact</a><a href="tel:+16154790178">615.479.0178</a><a href="mailto:hello@bluecolliestudio.com">hello@bluecolliestudio.com</a></div></div>' +
-        '<div class="fbot"><span>© 2026 Blue Collie Studio</span><span>Nashville, Tennessee</span></div></section>';
+        FOOT();
     }
     after() {
       var MAP = { work: 'bc-help,bc4-work', steps: 'bc-plan,bc4-steps', owners: 'bc-owners,bc4-owners' };
@@ -364,6 +367,282 @@
       } catch (e) {}
     }
   }
+
+  /* ===== CHURCH + NONPROFIT PAGES =====
+     Six elements per page. Church: bc4c-hero, bc4c-story, bc4c-ways, bc4c-get,
+     bc4c-trust, bc4c-close. Nonprofit: the same with bc4n-. The tag prefix picks
+     the copy. All copy lives in PG below. */
+  var PHOTO = 'https://static.wixstatic.com/media/c7bcf6_dcd1d041e642445987f0099fccc32074~mv2.jpg';
+  var PG = {
+    c: {
+      key: 'c', tag: 'bc4c-',
+      eyebrow: 'For churches &amp; ministries',
+      h1: ['Less admin.', 'More ministry.'],
+      heroBody: ['You answered a call to serve people. Somehow the week fills up with newsletters, announcements and social posts.', 'We help your church say what matters, clearly. Then we build the systems that take the repeat work off your team.'],
+      probH: ["Your church wasn't called to spend its week", 'on admin.'],
+      probBody: ['Sermon prep. Events. Volunteers. Newsletters. Social media. And a hundred small details that never make the calendar.', 'When the team is small, the same few people wear every hat. Important messages get rushed. Good ideas sit unfinished. The same announcement gets rebuilt from scratch every week.', 'Maybe someone on your team has tried ChatGPT or Claude. It helped a little, for one person, on one good day. Then it faded, because nothing was set up and nothing was shared.', 'Hiring another person may not be possible.'],
+      stake: 'But a lot of this work follows the same steps every week. Work like that can be handed to a system built for your church.',
+      guideH: ["We'll carry", 'some of it.'],
+      guideBody: ['Blue Collie Studio is a small studio run by its owners, Renée and Drü Collie.', 'Renée has more than 20 years leading marketing for growing businesses and organizations. Drü has spent nearly 20 years helping organizations tell a clear story that earns trust. Both have worked in nonprofit communications, fundraising and growth.', 'We do the strategy and the hands-on work. You work with the owners, start to finish.'],
+      guideBold: 'You lead the mission. We help the message and the work keep up.',
+      waysH: ['Start where', 'it hurts.'],
+      waysLead: 'Pick the one that fits your church right now. They work together.',
+      tiles: [
+        ['Say it clearly.', 'Message and brand. We help you put into plain words who you serve, what you offer and how you sound. A system can only sound like your church if it knows what your church sounds like. This is how we make sure it does.'],
+        ['Hand it over.', "The Church Handover. After our call, we send you a Handover Map: a menu of the jobs we could take off your plate, so you choose what you want. Then we build the ones you pick, one at a time, around your church's approved words and information, train your team and hand each one over. You keep every one."],
+        ['Keep it moving.', 'A marketing partner for the long haul. Strategy, creative direction and hands-on help, shaped around your team. We lead the work, or we strengthen the team you already have.']
+      ],
+      waysQuiet: "Need a website that welcomes people, or to be easier to find on Google and in AI answers? That's part of the work too.",
+      waysClose: "You can start with one. We'll help you choose.",
+      exH: ['What could you', 'hand over?'],
+      exLead: "Here are four jobs churches often carry. We start with the one that weighs most, then add the next when you're ready.",
+      ex: [
+        ['Sermon follow-up.', "Turn a pastor-approved sermon transcript into drafts for social posts, email summaries and other follow-up, in the pastor's own message."],
+        ['Weekly communications.', 'First drafts of newsletters, announcements and weekly updates, built from approved church information.'],
+        ['Event promotion.', 'Turn approved event details into email invitations, social posts, website announcements and reminders.'],
+        ['Volunteer communications.', 'Draft instructions, onboarding materials and updates from your approved ministry procedures.']
+      ],
+      howH: ['We build it. You use it.', 'Your church keeps it.'],
+      steps: [
+        ['Get your Handover Map.', 'After our call, we send you a menu of what we could take off your plate. You pick what you want and where to start.'],
+        ['Build your first handover.', "We start by learning how the job really gets done. If your message isn't written down yet, we start there. Then we set up the system with your approved words and information, and test it on realistic examples."],
+        ['Train your team and hand it over.', 'We train the people who will use it. You get the instructions, a review checklist and a working process. Your team runs it. Then we start on the next one.']
+      ],
+      eachItems: ['A close look at how the job really gets done today', 'Your approved words, examples and information, organized so the system can use them', 'A working system, set up so your team can run it', 'Testing on realistic examples, refined until it sounds like your church', 'Training for the people who will use it', 'Written instructions and a review checklist', 'A person on your team approves everything before it goes out'],
+      trustH: ['Technology should support ministry,', 'not take its place.'],
+      trustBody: ['Church communications carry weight. Theology, relationships, pastoral confidentiality and community trust all matter.', "So a person stays in charge. The system drafts and organizes what you've approved. Nothing goes out until your team reviews it. Pastors stay responsible for theology and the final word.", 'We also help you set simple rules for sensitive information and which tools your team uses.'],
+      trustBold: 'Your mission leads. The technology supports it.',
+      fitH: ['Built for churches doing a lot', 'with a lean team.'],
+      fitIntro: 'This may be a good fit if:',
+      fit: ['Your staff are stretched across ministry and administration', 'Communications keep landing on the same overloaded people', "You want consistency without losing your church's personality", "You're curious about AI but don't want another technical project to manage", "You're ready to invest in a lasting fix"],
+      fitNote: "You don't need an AI expert on staff. You do need one person who will own it after we hand it over.",
+      pic: 'Picture it. The newsletter draft is <b>waiting for your review.</b> Announcements sound like <b>your church,</b> every time. And your team spends the morning <b>with people.</b>',
+      faq: [
+        ['Do you only do AI, or marketing too?', 'Both. We help churches get their message clear, build a brand and website, and lead or support ongoing marketing. The AI systems are one way we take work off your team. They work best on top of a clear message.'],
+        ['Where do we start?', 'On a 20-minute call. Tell us where it hurts. Afterward we send you a Handover Map with your options, so you choose where to begin.'],
+        ['What is a Handover Map?', "After our 20-minute call, we send you a menu of the jobs we could take off your team's plate. For each one, we say what we'd build, what we'd need from you and what stays with your people. You pick what you want and where to start. It's built from our conversation, so it's a first look. Each handover begins with a closer look at that job."],
+        ['Will AI write our sermons?', "No. That's not what this is for. One option helps turn a pastor-approved sermon into follow-up drafts. Pastors stay responsible for the teaching and the final approval."],
+        ['Will our communications sound generic?', 'We build from your approved examples, your language and your guidelines. Your staff review every draft, and we keep refining until it sounds like you.'],
+        ['Do we have to learn complicated software?', 'We use practical tools and train your people on each system we build. The tools depend on what you already use.'],
+        ['What about sensitive church information?', "We decide with you what should and shouldn't go into any tool. Confidential pastoral information and personal records are outside the default workflow."],
+        ['Will we need Blue Collie every time we use it?', 'No. Your staff run it. You get the instructions and documentation.'],
+        ['How much does it cost?', "Every church is different. After a 20-minute call, we'll give you a clear plan and what it will cost."]
+      ],
+      partH: 'Helping a network of churches?',
+      partBody: "If you support a group of churches or ministries, we'd love to explore how practical AI training and implementation could help the churches you serve. We're exploring group and sponsored programs so lean teams can get useful tools without each one building from scratch.",
+      closeH: ['Give your team more room', 'for ministry.'],
+      closeSub: "Your people are your most valuable resource. Let's talk about what's taking their time, and what could come off their plate."
+    },
+    n: {
+      key: 'n', tag: 'bc4n-',
+      eyebrow: 'For nonprofits',
+      h1: ['Less busywork.', 'More mission.'],
+      heroBody: ['Your team is working hard to make a difference. Between donor emails, program stories and everyday admin, there is never enough time.', 'We help you say what you do, clearly. Then we build the systems that take the repeat communications work off your plate.'],
+      probH: ['Your team has a mission to deliver.', 'The workload keeps growing.'],
+      probBody: ['In a lean nonprofit, everyone wears several hats.', 'The executive director is editing a donor email. The program team owes an impact update. Social media fell behind again.', 'This work deserves care. But the repeat work around it can eat the whole week.', 'Maybe someone has tried ChatGPT or Claude. It helped one person once, and nothing stuck.', 'Adding a staff position may not be possible.'],
+      stake: 'But much of this work follows the same steps every time. Work like that can be handed to a system built for your organization.',
+      guideH: ['We know this', 'work.'],
+      guideBody: ['Blue Collie Studio is a small studio run by its owners, Renée and Drü Collie.', 'Both have worked in nonprofit communications, fundraising and growth. Drü has spent nearly 20 years helping organizations tell a clear story that earns trust. Renée has more than 20 years leading marketing for growing businesses and organizations.', 'We do the strategy and the hands-on work. You work with the owners, start to finish.'],
+      guideBold: 'You carry the mission. We help the message and the work keep up.',
+      waysH: ['Start where', 'it hurts.'],
+      waysLead: 'Pick the one that fits your organization right now. They work together.',
+      tiles: [
+        ['Say it clearly.', 'Message and brand. We help you tell your story in plain words that donors, partners and volunteers understand. A system can only sound like your organization if it knows what your organization sounds like. This is how we make sure it does.'],
+        ['Hand it over.', 'The Nonprofit Handover. After our call, we send you a Handover Map: a menu of the jobs we could take off your plate, so you choose what you want. Then we build the ones you pick, one at a time, around your approved information and voice, train your team and hand each one over. You keep every one.'],
+        ['Keep it moving.', 'A marketing partner for the long haul. Strategy, creative direction and hands-on help, shaped around your team. We lead the work, or we strengthen the team you already have.']
+      ],
+      waysQuiet: "Need a website that makes the next step obvious, or to be easier to find on Google and in AI answers? That's part of the work too.",
+      waysClose: "You can start with one. We'll help you choose.",
+      exH: ['What could you', 'hand over?'],
+      exLead: "Here are four jobs nonprofits often carry. We start with the one that weighs most, then add the next when you're ready.",
+      ex: [
+        ['Donor communications.', 'Draft donor updates, stewardship emails and campaign messages from approved fundraising information.'],
+        ['Impact stories.', 'Turn verified program updates into clear stories, without inventing numbers.'],
+        ['Newsletters and social.', 'Repurpose approved updates into newsletters, social posts and website content.'],
+        ['Campaign communications.', 'Consistent draft materials for awareness campaigns, events and community initiatives.']
+      ],
+      howH: ['Practical,', 'not a giant tech project.'],
+      steps: [
+        ['Get your Handover Map.', "After our call, we send you a menu of what we could take off your team's plate. You pick what you want and where to start."],
+        ['Build your first handover.', "We start by learning how the job really gets done. If your message isn't written down yet, we start there. Then we set up the system with your approved information, write the instructions and test the results."],
+        ['Train your team and hand it over.', 'We show your people how to run it, check the facts and keep the standard. You get a working system and the instructions to keep using it. Then we start on the next one.']
+      ],
+      eachItems: ['A close look at how the job really gets done today', 'Your approved information, examples and voice, organized so the system can use them', 'A working system, set up so your team can run it', 'Testing on realistic examples, refined for accuracy and voice', 'Training for the people who will use it', 'Written instructions and a review checklist', 'A person on your team approves everything before it goes out'],
+      trustH: ['Your mission depends on trust.', 'Your systems should respect that.'],
+      trustBody: ['Nonprofit communications often involve donor relationships, program results and stories about real people.', 'Accuracy and dignity matter.', "So we use approved information, and a person reviews everything. We set boundaries around sensitive data. The system should never invent impact numbers, make claims you can't support or make decisions that belong to your staff."],
+      trustBold: 'Your people stay in control.',
+      fitH: ['Built for mission-driven teams with', 'more responsibility than capacity.'],
+      fitIntro: 'This may be a good fit if you:',
+      fit: ['Have a lean team juggling several roles', 'Struggle to keep communications moving', 'Repeat similar drafting work every week or month', "Want to protect your voice and your donors' trust", 'Would rather invest in a better system than add more disconnected software'],
+      fitNote: "You don't need to become an AI organization to benefit from AI. You need a repeatable job that solves a real problem.",
+      pic: "Picture it. The donor update is drafted from <b>facts your team approved.</b> Program stories sound like <b>you,</b> and they're true. And your director spends the week <b>with the mission.</b>",
+      faq: [
+        ['Do you only do AI, or marketing too?', 'Both. We help nonprofits get their message clear, build a brand and website, and lead or support ongoing marketing. The AI systems are one way we take work off your team. They work best on top of a clear message.'],
+        ['Where do we start?', 'On a 20-minute call. Tell us where it hurts. Afterward we send you a Handover Map with your options, so you choose where to begin.'],
+        ['What is a Handover Map?', "After our 20-minute call, we send you a menu of the jobs we could take off your team's plate. For each one, we say what we'd build, what we'd need from you and what stays with your people. You pick what you want and where to start. It's built from our conversation, so it's a first look. Each handover begins with a closer look at that job."],
+        ['Is this an AI training course?', 'No. The main service is building a working system for you. Training is included so your staff can run it with confidence.'],
+        ['Can AI help with grants and reporting?', 'Maybe, as a later or separate project. The first system focuses on one recurring communications job, like approved program updates or donor communications. Financial figures, formal grant submissions and impact claims need verification and your approval.'],
+        ['Will we need to replace our tools?', 'Not necessarily. We look at what you use and choose something practical. Any added subscriptions are named when we scope the work.'],
+        ['Can it use our donor database?', "The default setup doesn't need open access to donor records. Data handling, permissions and any connections get a separate review and your approval."],
+        ['Does our team own it?', 'The goal is a system your team runs, with written instructions and a clear handover. Platform access and ownership details go in the project agreement.'],
+        ['How much does it cost?', "Every organization is different. After a 20-minute call, we'll give you a clear plan and what it will cost."]
+      ],
+      partH: 'Supporting a network of nonprofits?',
+      partBody: "If you fund or support a group of nonprofits, we'd love to explore how practical AI training and implementation could help the organizations you serve. We're exploring group and sponsored programs so lean teams can get useful tools without each one building from scratch.",
+      closeH: ['More capacity for the work', 'that makes a difference.'],
+      closeSub: "Your mission deserves your team's best energy. Let's talk about what's slowing you down, and what could come off your plate."
+    }
+  };
+  var MAPITEMS = ['What we heard about your team and your week', 'The jobs we could hand over, each one in plain words', "For each: what we'd build, what we'd need from you, and what stays with your people", 'A plain note on how ready your message is', 'Our suggestion for where to start, and the order after that', 'Other ways we can help, like message work or an ongoing partner'];
+  var ILLUS = 'Illustration of how it works. Not a client result.';
+  function pk(el) { return el.localName.indexOf('bc4n-') === 0 ? PG.n : PG.c; }
+  function dt(s, ink) { return String(s).replace(/\.(?=\s|<|$)/g, ink ? INKDOT : DOT); }
+  function hh(a, ink) { return dt(a[0], ink) + '<br><b>' + dt(a[1], ink) + '</b>'; }
+  function ps(a, cls) { return a.map(function (t) { return '<p class="b' + (cls ? ' ' + cls : '') + '">' + t + '</p>'; }).join(''); }
+  function li(a) { return '<ul class="tick">' + a.map(function (t) { return '<li>' + t + '</li>'; }).join('') + '</ul>'; }
+  function flow(a) { return '<div class="flow" aria-hidden="true">' + a.map(function (t, i) { return (i ? '<span class="ar">→</span>' : '') + '<span class="fs' + (i === a.length - 1 ? ' hl' : '') + '">' + t + '</span>'; }).join('') + '</div><p class="cap">' + ILLUS + '</p>'; }
+  function plain(s) { return String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&'); }
+  function goTo(root, host) {
+    root.querySelectorAll('[data-to]').forEach(function (a) {
+      a.addEventListener('click', function (e) {
+        var t = document.querySelector(pk(host).tag + a.getAttribute('data-to'));
+        if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+      });
+    });
+  }
+  var PCSS = '.pg{padding:130px 48px}' +
+    'h2{font-size:92px;line-height:.9;letter-spacing:-.055em;font-weight:200}h2 b,h2 i.dot{font-weight:800}' +
+    '.eb{font-size:14px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:' + PETAL + ';margin-bottom:28px}.cloud .eb{color:' + FLAME + '}' +
+    'p.b{font-size:20px;line-height:1.6;font-weight:300}p.b+p.b{margin-top:18px}.ink p.b{color:' + MIST + '}.cloud p.b{color:' + SLATE + '}.petal p.b{color:' + INK + '}p.b.bd{font-weight:800;font-size:28px;line-height:1.2;letter-spacing:-.025em;margin-top:28px}.ink p.b.bd{color:' + PETAL + '}.cloud p.b.bd,.petal p.b.bd{color:' + INK + '}' +
+    '.lead{margin-top:28px;max-width:640px;font-size:22px;line-height:1.5;font-weight:300}.ink .lead{color:' + MIST + '}.cloud .lead{color:' + SLATE + '}' +
+    '.tick{list-style:none;display:flex;flex-direction:column;gap:14px}.tick li{position:relative;padding-left:34px;font-size:19px;line-height:1.5;font-weight:400}.tick li:before{content:"";position:absolute;left:0;top:.5em;width:14px;height:14px;border-radius:50%;background:' + FLAME + '}' +
+    '.flow{display:flex;flex-wrap:wrap;align-items:center;gap:14px;margin-top:56px}.fs{background:' + INK + ';color:' + CLOUD + ';border-radius:999px;padding:16px 26px;font-size:18px;font-weight:700}.fs.hl{background:' + FLAME + ';color:' + INK + '}.ink .fs{background:rgba(251,252,254,.1);border:1px solid rgba(251,252,254,.35)}.ink .fs.hl{background:' + FLAME + ';border-color:' + FLAME + '}.ar{font-size:26px;font-weight:800;color:' + FLAME + '}.cap{margin-top:14px;font-size:13px;font-weight:600;color:' + SLATE + '}.ink .cap{color:' + MIST + '}' +
+    '.is-m .pg{padding:56px 24px}.is-m h2{font-size:44px}.is-m .lead{font-size:18px;margin-top:20px}.is-m p.b{font-size:17px}.is-m p.b.bd{font-size:22px}.is-m .tick li{font-size:17px}.is-m .flow{flex-direction:column;align-items:stretch;margin-top:32px;gap:8px}.is-m .fs{text-align:center}.is-m .ar{align-self:center;transform:rotate(90deg);line-height:1}';
+
+  /* P1 · HERO */
+  class PHero extends Base {
+    css() {
+      return PCSS + '.hero{padding:96px 48px 88px}h1{font-size:146px;line-height:.86;letter-spacing:-.06em;color:' + CLOUD + '}h1 span{display:block}h1 .l{font-weight:200}h1 .h{font-weight:800}' +
+        '.hb{margin-top:60px;display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:40px 64px}.sub{flex:1 1 520px;max-width:620px}.sub p{font-size:22px;line-height:1.5;font-weight:300;color:' + MIST + '}.sub p+p{margin-top:16px}' +
+        '.acts{display:flex;flex-direction:column;align-items:flex-start;gap:16px}.under{font-size:15px;color:' + MIST + '}.see{font-size:17px;font-weight:600;color:' + CLOUD + '}' +
+        '.lad{margin-top:72px;padding-top:28px;border-top:1px solid rgba(251,252,254,.16);display:flex;flex-wrap:wrap;gap:14px}.chip{border:1px solid rgba(251,252,254,.35);border-radius:999px;padding:12px 22px;font-size:18px;font-weight:600;color:' + CLOUD + '}.chip b{color:' + PETAL + ';margin-right:10px;font-weight:800}' +
+        '.is-m .hero{padding:48px 24px 48px}.is-m h1{font-size:54px;letter-spacing:-.055em}.is-m .hb{margin-top:28px;gap:28px}.is-m .sub{flex-basis:auto}.is-m .sub p{font-size:18px}.is-m .acts{align-items:stretch}.is-m .acts .btn{width:100%}.is-m .lad{margin-top:36px;padding-top:20px;gap:10px}.is-m .chip{font-size:15px;padding:10px 16px}';
+    }
+    html() {
+      var c = pk(this);
+      return '<section class="ink hero"><p class="eb">' + c.eyebrow + '</p><h1 aria-label="' + plain(c.h1.join(' ')) + '"><span class="l">' + dt(c.h1[0]) + '</span><span class="h">' + dt(c.h1[1]) + '</span></h1>' +
+        '<div class="hb"><div class="sub">' + c.heroBody.map(function (t) { return '<p>' + t + '</p>'; }).join('') + '</div>' +
+        '<div class="acts"><a class="btn" href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><p class="under">No handoffs. Straight to an owner.</p><a class="see ul" href="#" data-to="get">See how it works ↓</a></div></div>' +
+        '<div class="lad" aria-hidden="true"><span class="chip"><b>1</b>Say it clearly</span><span class="chip"><b>2</b>Hand it over</span><span class="chip"><b>3</b>Keep it moving</span></div></section>';
+    }
+    after() { goTo(this.shadowRoot, this); }
+  }
+
+  /* P2 · PROBLEM + GUIDE */
+  class PStory extends Base {
+    css() {
+      return PCSS + '.two{display:flex;gap:88px;margin-top:64px;align-items:flex-start}.two .l{flex:1 1 0}.two .r{flex:1 1 0;font-size:46px;line-height:1.08;letter-spacing:-.04em;font-weight:800}' +
+        '.gd{display:flex;gap:72px;align-items:stretch}.gd .t{flex:1 1 0}.gd .img{flex:0 0 480px;border-radius:32px;overflow:hidden;min-height:480px}.gd .img img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 35%}' +
+        '.stats{display:flex;margin-top:72px;border-top:3px solid ' + INK + '}.stats div{flex:1 1 0;padding:26px 22px 0 0}.n{font-size:96px;font-weight:800;letter-spacing:-.06em;line-height:.9}.stats p+p{margin-top:12px;font-size:17px;color:' + INK + '}' +
+        '.is-m .two{flex-direction:column;gap:28px;margin-top:32px}.is-m .two .r{font-size:30px}.is-m .gd{flex-direction:column;gap:32px}.is-m .gd .img{flex:none;width:100%;min-height:0;height:260px}.is-m .stats{flex-direction:column;margin-top:40px}.is-m .stats div{padding:20px 0 0}.is-m .n{font-size:64px}';
+    }
+    html() {
+      var c = pk(this), src = this.getAttribute('photo') || PHOTO;
+      return '<section class="cloud pg"><h2 class="rise">' + hh(c.probH) + '</h2><div class="two"><div class="l">' + ps(c.probBody) + '</div><p class="r">' + dt(c.stake) + '</p></div></section>' +
+        '<section class="petal pg"><div class="gd"><div class="t"><h2 class="rise">' + hh(c.guideH, true) + '</h2><div style="margin-top:40px">' + ps(c.guideBody) + '<p class="b bd">' + dt(c.guideBold, true) + '</p></div></div>' +
+        '<div class="img"><img src="' + src + '" alt="Renée and Drü Collie in conversation" loading="lazy"></div></div>' +
+        '<div class="stats"><div><p class="n">2' + INKDOT + '</p><p>owners on every project</p></div><div><p class="n">1' + INKDOT + '</p><p>main contact, start to finish</p></div><div><p class="n">20' + INKDOT + '</p><p>minutes to know if we\'re a fit</p></div></div></section>';
+    }
+    static get observedAttributes() { return ['photo']; }
+    attributeChangedCallback() { if (this.shadowRoot) { this.m = null; this.fit(); } }
+  }
+
+  /* P3 · THREE WAYS + WHAT COULD YOU HAND OVER */
+  class PWays extends Base {
+    css() {
+      return PCSS + '.tiles{display:flex;gap:20px;margin-top:72px}.tile{flex:1 1 0;border-radius:32px;padding:44px;min-height:560px;display:flex;flex-direction:column;justify-content:space-between;gap:36px}.tile .no{font-size:15px;font-weight:700;letter-spacing:.14em}.tile .tt{margin-top:18px;font-size:54px;font-weight:800;letter-spacing:-.05em;line-height:.95}.tile .td{font-size:18px;line-height:1.6}' +
+        '.tile.cloud .td{color:' + SLATE + '}.tile.petal .td{color:' + INK + '}.tile.opt{border:2px solid rgba(251,252,254,.3);color:' + CLOUD + '}.tile.opt .td{color:' + MIST + '}.tile.hot{background:' + FLAME + ';color:' + INK + '}.tile.hot .td{color:' + INK + '}' +
+        '.q{margin-top:56px;font-size:20px;line-height:1.55;color:' + MIST + ';max-width:760px}.q b{display:block;margin-top:14px;font-size:26px;font-weight:800;letter-spacing:-.03em;color:' + CLOUD + '}' +
+        '.cards{display:flex;flex-wrap:wrap;gap:20px;margin-top:64px}.cd{flex:1 1 calc(50% - 10px);border:1px solid ' + MIST + ';border-radius:28px;padding:36px;background:#fff}.cd .tt{font-size:30px;font-weight:800;letter-spacing:-.035em;line-height:1.05}.cd .td{margin-top:12px;font-size:18px;line-height:1.55;color:' + SLATE + '}' +
+        '.is-m .tiles{flex-direction:column;margin-top:36px}.is-m .tile{flex:none;min-height:0;padding:28px;gap:24px;border-radius:24px}.is-m .tile .tt{font-size:40px}.is-m .tile .td{font-size:17px}.is-m .q{margin-top:32px;font-size:17px}.is-m .q b{font-size:22px}.is-m .cards{flex-direction:column;margin-top:32px;gap:14px}.is-m .cd{flex:none;padding:26px}.is-m .cd .tt{font-size:25px}.is-m .cd .td{font-size:17px}';
+    }
+    html() {
+      var c = pk(this), cls = ['cloud', 'hot', 'petal'];
+      var tiles = c.tiles.map(function (t, i) {
+        return '<div class="tile ' + cls[i] + '"><div><p class="no">0' + (i + 1) + '</p><p class="tt">' + dt(t[0], i !== 0) + '</p></div><p class="td">' + t[1] + '</p></div>';
+      }).join('');
+      return '<section class="ink pg"><h2 class="rise">' + hh(c.waysH) + '</h2><p class="lead">' + c.waysLead + '</p><div class="tiles">' + tiles + '</div><p class="q">' + c.waysQuiet + '<b>' + c.waysClose + '</b></p></section>' +
+        '<section class="cloud pg"><h2 class="rise">' + hh(c.exH) + '</h2><p class="lead">' + c.exLead + '</p><div class="cards">' + c.ex.map(function (e) { return '<div class="cd"><p class="tt">' + dt(e[0]) + '</p><p class="td">' + e[1] + '</p></div>'; }).join('') + '</div>' +
+        flow(['Approved source material', 'Your system', 'Drafts to review', 'Your team approves']) + '</section>';
+    }
+  }
+
+  /* P4 · HOW IT WORKS + WHAT YOU GET */
+  class PGet extends Base {
+    css() {
+      return PCSS + 'svg.path{display:block;width:100%;height:130px;margin-top:64px}ol{list-style:none;margin-top:20px;display:flex;gap:48px;justify-content:space-between}ol li{flex:1 1 0;max-width:360px}ol li p:first-child{font-size:30px;font-weight:800;letter-spacing:-.03em;margin-bottom:12px}ol li p+p{font-size:18px;line-height:1.6;color:' + SLATE + '}' +
+        '.two{display:flex;gap:20px;margin-top:72px;align-items:stretch}.card{flex:1 1 0;border-radius:32px;padding:48px}.card.cloud{color:' + INK + '}.card.petal{color:' + INK + '}.card .tt{font-size:44px;font-weight:800;letter-spacing:-.045em;line-height:1}.card .lead{margin-top:18px;margin-bottom:26px;font-size:19px;max-width:none}.card .k+.tick{margin-top:0}.ink .card.cloud .lead{color:'+SLATE+'}.ink .card.petal .lead{color:'+INK+'}.card .k{margin:30px 0 16px;font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:' + SLATE + '}.card .tick{gap:12px}.card .tick li{font-size:18px}.card .fin{margin-top:28px;font-size:19px;font-weight:700;line-height:1.4}' +
+        '.is-m svg.path{height:70px;margin-top:28px}.is-m ol{flex-direction:column;gap:28px}.is-m ol li p:first-child{font-size:24px}.is-m .two{flex-direction:column;margin-top:36px}.is-m .card{padding:28px;border-radius:24px}.is-m .card .tt{font-size:34px}.is-m .card .tick li{font-size:16px}';
+    }
+    html() {
+      var c = pk(this);
+      var steps = c.steps.map(function (s) { return '<li><p>' + dt(s[0]) + '</p><p>' + s[1] + '</p></li>'; }).join('');
+      return '<section class="cloud pg" id="how"><h2 class="rise">' + hh(c.howH) + '</h2>' +
+        '<svg class="path" viewBox="0 0 1200 160" preserveAspectRatio="none" aria-hidden="true"><path d="M60 110 C 260 10, 420 10, 600 80 S 940 150, 1140 40" fill="none" stroke="' + MIST + '" stroke-width="3" stroke-dasharray="2 12" stroke-linecap="round"/><circle cx="60" cy="110" r="14" fill="' + INK + '"/><circle cx="600" cy="80" r="14" fill="' + INK + '"/><circle cx="1140" cy="40" r="22" fill="' + FLAME + '"/></svg><ol>' + steps + '</ol></section>' +
+        '<section class="ink pg"><h2 class="rise">Start with a map' + DOT + '<br><b>Build one at a time' + DOT + '</b></h2><div class="two">' +
+        '<div class="card cloud"><p class="tt">The Handover Map' + DOT + '</p><p class="lead">After our call, we send you a Handover Map: a menu of the jobs we could take off your plate. You choose the ones you want, and where to start.</p><p class="k">In the map</p>' + li(MAPITEMS) + '<p class="fin">Pick one, pick a few, or wait. You decide.</p></div>' +
+        '<div class="card petal"><p class="tt">Each handover' + INKDOT + '</p><p class="lead">We build one job at a time. Every handover includes:</p>' + li(c.eachItems) + '<p class="fin">Ready for the next one? We start the next handover. Each one is scoped and agreed before we begin.</p></div></div>' +
+        flow(['Handover Map', 'Handover 1', 'Handover 2', 'and so on']) + '</section>';
+    }
+  }
+
+  /* P5 · GUARDRAILS + FIT + PICTURE IT */
+  class PTrust extends Base {
+    css() {
+      return PCSS + '.two{display:flex;gap:88px;margin-top:64px;align-items:flex-start}.two .l{flex:1 1 0}.two .r{flex:1 1 0}.two .r p{font-size:50px;line-height:1.05;letter-spacing:-.045em;font-weight:800;color:' + PETAL + '}' +
+        '.fit{display:flex;gap:88px;align-items:flex-start}.fit .l{flex:1.1 1 0}.fit .r{flex:1 1 0;padding-top:12px}.fit .in{font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:' + SLATE + ';margin-bottom:22px}.fit .nt{margin-top:32px;padding-top:24px;border-top:3px solid ' + INK + ';font-size:18px;line-height:1.55;color:' + SLATE + '}' +
+        '.pic{padding:130px 48px}.pic p{font-size:64px;line-height:1.06;letter-spacing:-.04em;font-weight:200;max-width:1120px}.pic b{font-weight:800}' +
+        '.is-m .two{flex-direction:column;gap:28px;margin-top:32px}.is-m .two .r p{font-size:32px}.is-m .fit{flex-direction:column;gap:32px}.is-m .fit .r{padding-top:0}.is-m .pic{padding:56px 24px}.is-m .pic p{font-size:34px}';
+    }
+    html() {
+      var c = pk(this);
+      return '<section class="ink pg"><h2 class="rise">' + hh(c.trustH) + '</h2><div class="two"><div class="l">' + ps(c.trustBody) + '</div><div class="r"><p>' + dt(c.trustBold) + '</p></div></div></section>' +
+        '<section class="cloud pg"><div class="fit"><div class="l"><h2 class="rise">' + hh(c.fitH) + '</h2></div><div class="r"><p class="in">' + c.fitIntro + '</p>' + li(c.fit) + '<p class="nt">' + c.fitNote + '</p></div></div></section>' +
+        '<section class="petal pic"><p class="rise">' + dt(c.pic, true) + '</p></section>';
+    }
+  }
+
+  /* P6 · FAQ + PARTNER + CLOSE (reuses the shared footer) */
+  class PClose extends Close {
+    css() {
+      return super.css() + '.part{padding:96px 48px;border-top:1px solid ' + MIST + ';display:flex;gap:88px;align-items:flex-start}.part h3{flex:0 0 340px;font-size:40px;line-height:1;letter-spacing:-.04em;font-weight:800}.part .pb{flex:1 1 0}.part p{max-width:700px;font-size:18px;line-height:1.65;color:' + SLATE + '}.part a{display:inline-block;margin-top:22px;font-size:17px;font-weight:700;color:' + INK + '}' +
+        '.is-m .part{flex-direction:column;gap:20px;padding:48px 24px}.is-m .part h3{flex-basis:auto;font-size:30px}';
+    }
+    html() {
+      var c = pk(this);
+      var q = c.faq.map(function (f, i) { return '<details' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
+      return '<section class="cloud faq"><div class="fh"><h2>Straight answers' + DOT + '</h2><p>Don\'t see yours? Ask us on a 20-minute call.</p></div><div class="fq">' + q + '</div></section>' +
+        '<section class="cloud part"><h3>' + c.partH + '</h3><div class="pb"><p>' + c.partBody + '</p><a class="ul" href="/contact" target="_top">Explore a partnership →</a></div></section>' +
+        '<section class="ink"><div class="cl"><div class="tx"><h2 class="rise">' + dt(c.closeH[0]) + ' <b>' + dt(c.closeH[1]) + '</b></h2><p class="sub">' + c.closeSub + '</p><p class="cc">You\'ll work directly with an owner.</p></div>' +
+        '<a class="disc" href="' + BOOK + '" target="_blank" rel="noopener"><span>Book a<br>20-minute call</span><i aria-hidden="true">→</i></a></div>' + FOOT();
+    }
+    after() {
+      var c = pk(this), id = 'bc4-faq-ld-' + c.key;
+      try {
+        if (!document.getElementById(id)) {
+          var s = document.createElement('script');
+          s.type = 'application/ld+json'; s.id = id;
+          s.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: c.faq.map(function (f) { return { '@type': 'Question', name: f[0], acceptedAnswer: { '@type': 'Answer', text: plain(f[1]) } }; }) });
+          document.head.appendChild(s);
+        }
+      } catch (e) {}
+    }
+  }
+  ['c', 'n'].forEach(function (k) {
+    var p = PG[k].tag;
+    var M = { hero: PHero, story: PStory, ways: PWays, get: PGet, trust: PTrust, close: PClose };
+    Object.keys(M).forEach(function (n) { if (!customElements.get(p + n)) customElements.define(p + n, class extends M[n] {}); });
+  });
 
   var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
   Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, TAGS[t]); });
