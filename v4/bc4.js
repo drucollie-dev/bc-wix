@@ -163,21 +163,37 @@
     css() {
       return '.top{padding:150px 48px 104px}.man{font-size:64px;line-height:1.06;letter-spacing:-.04em;font-weight:200;max-width:1120px}' +
         '.fz{font-style:italic;font-weight:300;text-decoration:underline wavy ' + FLAME + ';text-decoration-thickness:3px;text-underline-offset:12px}.man b{font-weight:800}' +
-        '.panels{display:flex}.pn{flex:1 1 0;min-height:480px;padding:32px;display:flex;flex-direction:column;justify-content:space-between}.pn p:first-child{font-size:15px;font-weight:600}' +
-        '.p1{background:#fff;color:#7A2E8E;border-top:1px solid ' + MIST + ';border-bottom:1px solid ' + MIST + '}.p1 p:first-child{color:' + SLATE + '}.p1 p:last-child{font-family:Georgia,serif;font-style:italic;font-size:58px;line-height:.95}' +
-        '.p2{background:#1E7A6E;color:#fff}.p2 p:last-child{font-family:Arial,sans-serif;font-weight:900;font-size:44px;line-height:.95;text-transform:uppercase}' +
-        '.p3{background:#F2C230;color:#3A2A00}.p3 p:last-child{font-family:"Courier New",monospace;font-size:34px;line-height:1.1}' +
-        '.p4{background:#C8372D;color:#fff}.p4 p:last-child{font-family:"Trebuchet MS",sans-serif;font-weight:700;font-size:42px;line-height:1}' +
+        '.desk{display:flex;border-top:1px solid ' + MIST + ';border-bottom:1px solid ' + MIST + ';background:#F3F5F9}' +
+        '.pn{flex:1 1 0;height:480px;padding:28px 24px 26px;display:flex;flex-direction:column;border-left:1px solid ' + MIST + ';overflow:hidden}.pn:first-child{border-left:0}' +
+        '.lb{font-size:13px;font-weight:600;letter-spacing:.02em;color:' + SLATE + '}.lb b{color:' + FLAME + ';font-weight:700;margin-right:8px}' +
+        '.art{flex-grow:1;display:flex;align-items:center;justify-content:center}' +
+        '.card{background:#fff;box-shadow:0 18px 40px rgba(8,31,59,.16),0 2px 6px rgba(8,31,59,.08);border-radius:6px;overflow:hidden}' +
+        '.a1{width:236px;height:150px;transform:rotate(-3deg);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;color:#7A2E8E;font-family:Georgia,serif}' +
+        '.a1 svg{width:30px;height:30px}.a1 .nm1{font-style:italic;font-size:44px;line-height:1}.a1 .tg1{font-size:11px;letter-spacing:.2em;text-transform:uppercase}' +
+        '.a2{width:262px;transform:rotate(2deg);font-family:Arial,Helvetica,sans-serif}.a2 .br{display:flex;gap:5px;padding:7px 9px;background:#E4E7EC}.a2 .br i{width:7px;height:7px;border-radius:50%;background:#fff}' +
+        '.a2 .hd{display:flex;justify-content:space-between;align-items:center;padding:9px 12px;background:#1E7A6E;color:#fff;font-weight:900;font-size:11px;letter-spacing:.02em}.a2 .hd span{display:flex;gap:3px;flex-direction:column}.a2 .hd span i{display:block;width:14px;height:2px;background:#fff}' +
+        '.a2 .hr{padding:16px 12px 14px;background:#E8F2EF}.a2 .hr p{font-weight:900;font-size:22px;line-height:1;color:#1E7A6E;text-transform:uppercase}.a2 .bt{display:inline-block;margin-top:10px;padding:5px 10px;background:#B5D334;color:#1B2B00;font-size:9px;font-weight:700;border-radius:2px}' +
+        '.a2 .ln{padding:10px 12px 12px}.ln i{display:block;height:5px;border-radius:3px;background:#E4E7EC;margin-top:6px}.ln i:nth-child(2){width:80%}.ln i:nth-child(3){width:60%}' +
+        '.a3{width:200px;transform:rotate(-2deg);font-family:"Courier New",Courier,monospace;color:#3A2A00}.a3 .ih{display:flex;align-items:center;gap:7px;padding:8px 10px;font-size:10px;color:#222}.a3 .ih i{width:20px;height:20px;border-radius:50%;background:#F2C230;border:2px solid #fff;box-shadow:0 0 0 1px #F2C230}' +
+        '.a3 .im{height:140px;background:#F2C230;display:flex;align-items:center;justify-content:center;text-align:center;font-size:26px;line-height:1.05;font-weight:700}.a3 .lk{padding:7px 10px 9px;font-size:10px;color:#222}' +
+        '.a4{width:250px;transform:rotate(3deg);font-family:"Trebuchet MS",sans-serif}.a4 .nh{padding:12px 12px;background:#C8372D;color:#fff;font-weight:700;font-size:17px;line-height:1.05}.a4 .sj{padding:9px 12px 0;font-size:11px;font-weight:700;color:#7A1E17}.a4 .nb{display:flex;gap:10px;align-items:center;padding:4px 12px}.a4 .nb i{width:64px;height:44px;border-radius:3px;background:#F3D3CF}.a4 .nb span{padding:5px 9px;background:#C8372D;color:#fff;font-size:9px;font-weight:700;border-radius:12px}' +
+        '.spec{margin-top:16px;font-size:12px;line-height:1.5;color:' + SLATE + '}.spec p{display:flex;justify-content:space-between;gap:10px;border-top:1px solid ' + MIST + ';padding:4px 0}.spec p b{color:' + INK + ';font-weight:600;text-align:right}.spec p.n b{font-weight:800}' +
         '.bot{padding:88px 48px 150px}.st{font-size:76px;line-height:.98;letter-spacing:-.045em;font-weight:800}.st span{font-weight:200}.note{margin-top:18px;font-size:14px;color:' + SLATE + '}' +
         '.qs{margin-top:104px;display:flex;gap:40px;align-items:flex-start}.lead{flex:1 1 0;font-size:22px;line-height:1.3;font-weight:300;color:' + SLATE + '}' +
         '.q{flex:1 1 0;padding-top:22px;border-top:3px solid ' + INK + ';font-size:28px;line-height:1.22;letter-spacing:-.02em;font-weight:500;font-style:italic}.q2{margin-top:56px}.q3{margin-top:112px}' +
         '.is-m .top{padding:88px 24px 64px}.is-m .man{font-size:34px}.is-m .fz{text-underline-offset:8px;text-decoration-thickness:2px}' +
-        '.is-m .panels{flex-wrap:wrap}.is-m .pn{flex:1 1 50%;min-height:220px;padding:18px}.is-m .pn p:first-child{font-size:12px}.is-m .p1 p:last-child{font-size:30px}.is-m .p2 p:last-child{font-size:22px}.is-m .p3 p:last-child{font-size:18px}.is-m .p4 p:last-child{font-size:22px}' +
+        '.is-m .desk{flex-wrap:wrap}.is-m .pn{flex:0 0 50%;height:230px;padding:14px 12px;border-left:0;border-top:1px solid ' + MIST + '}.is-m .pn:nth-child(even){border-left:1px solid ' + MIST + '}.is-m .pn:nth-child(-n+2){border-top:0}' +
+        '.is-m .lb{font-size:11px}.is-m .lb b{margin-right:4px}.is-m .art{zoom:.56}.is-m .spec{margin-top:6px;font-size:10.5px}.is-m .spec p{display:block;padding:3px 0 0}.is-m .spec p:not(.n){display:none}.is-m .spec p.n span{display:none}.is-m .spec p b{text-align:left;word-break:break-all}' +
         '.is-m .bot{padding:56px 24px 96px}.is-m .st{font-size:40px}.is-m .qs{flex-direction:column;gap:28px;margin-top:64px}.is-m .q{font-size:22px}.is-m .q2,.is-m .q3{margin-top:0}.is-m .lead{font-size:19px}';
     }
     html() {
       return '<section class="cloud"><div class="top"><p class="man rise">Your team is working hard. The website is live. Content goes out every week. And still, <em class="fz">the message is fuzzy</em>, the pieces don\'t connect, and nobody can say <b>what\'s moving you forward' + DOT + '</b></p></div>' +
-        '<div class="panels" aria-hidden="true"><div class="pn p1"><p>The logo</p><p>Northside</p></div><div class="pn p2"><p>The website</p><p>NorthSide Community</p></div><div class="pn p3"><p>The Instagram</p><p>@northside_<br>official_2</p></div><div class="pn p4"><p>The newsletter</p><p>The North Side News!!</p></div></div>' +
+        '<div class="desk" aria-hidden="true">' +
+        '<div class="pn"><p class="lb"><b>01</b>The logo</p><div class="art"><div class="card a1"><svg viewBox="0 0 30 30" fill="none" stroke="#7A2E8E" stroke-width="1.6"><circle cx="15" cy="15" r="13"/><path d="M15 23V11M15 15c-3-1-5-4-5-7 3 0 5 2 5 5M15 13c2-2 5-3 7-2-1 3-4 4-7 4"/></svg><span class="nm1">Northside</span><span class="tg1">est. 1998</span></div></div><div class="spec"><p class="n"><span>Name</span><b>Northside</b></p><p><span>Type</span><b>Georgia italic</b></p><p><span>Color</span><b>Plum</b></p></div></div>' +
+        '<div class="pn"><p class="lb"><b>02</b>The website</p><div class="art"><div class="card a2"><div class="br"><i></i><i></i><i></i></div><div class="hd">NORTHSIDE COMMUNITY<span><i></i><i></i><i></i></span></div><div class="hr"><p>Welcome home!!</p><span class="bt">CLICK HERE</span></div><div class="ln"><i></i><i></i><i></i></div></div></div><div class="spec"><p class="n"><span>Name</span><b>NorthSide Community</b></p><p><span>Type</span><b>Arial Black</b></p><p><span>Color</span><b>Teal</b></p></div></div>' +
+        '<div class="pn"><p class="lb"><b>03</b>The Instagram</p><div class="art"><div class="card a3"><div class="ih"><i></i>northside_official_2</div><div class="im">sunday<br>funday!!</div><div class="lk">&#9825; 12 likes</div></div></div><div class="spec"><p class="n"><span>Name</span><b>@northside_official_2</b></p><p><span>Type</span><b>Courier</b></p><p><span>Color</span><b>Mustard</b></p></div></div>' +
+        '<div class="pn"><p class="lb"><b>04</b>The newsletter</p><div class="art"><div class="card a4"><div class="nh">The North Side News!!</div><p class="sj">Issue #47: BIG updates inside!!!</p><div class="ln"><i></i><i></i><i></i></div><div class="nb"><i></i><span>READ MORE &gt;&gt;</span></div><div class="ln"><i></i><i></i></div></div></div><div class="spec"><p class="n"><span>Name</span><b>The North Side News</b></p><p><span>Type</span><b>Trebuchet</b></p><p><span>Color</span><b>Brick</b></p></div></div>' +
+        '</div>' +
         '<div class="bot"><p class="st rise">Same organization' + DOT + '<br><span>Four different first impressions</span>' + DOT + '</p><p class="note">Northside is made up. Your version of it probably isn\'t.</p>' +
         '<div class="qs"><p class="lead">Things we hear in the first five minutes of almost every call:</p><p class="q rise">We have a website, a logo, and a dozen tools. None of it tells one story.</p><p class="q q2 rise">I\'m tired of explaining what we do and still getting blank looks.</p><p class="q q3 rise">We do good work. It shouldn\'t be this hard for the right people to find us.</p></div></div></section>';
     }
@@ -218,7 +234,7 @@
         '.is-m .stats{flex-direction:column}.is-m .stats div{padding:20px 0 0}.is-m .n{font-size:64px}';
     }
     html() {
-      var src = this.getAttribute('photo') || 'https://static.wixstatic.com/media/c7bcf6_46d26a2c708141fb8dbceeb6f2660fec~mv2.jpg';
+      var src = this.getAttribute('photo') || 'https://static.wixstatic.com/media/c7bcf6_dcd1d041e642445987f0099fccc32074~mv2.jpg';
       return '<section class="ph"><img src="' + src + '" alt="Renée and Drü Collie in conversation" loading="lazy"><div class="sc"></div><h2 class="rise">You\'ll work with<br>the owners' + DOT + '</h2></section>' +
         '<section class="cloud bios"><div class="bio"><p class="nm">Renée Collie</p><p class="rl">Owner · Lead marketing strategist · Your main contact</p><p class="bl">More than 20 years leading marketing for growing businesses and organizations.</p></div>' +
         '<div class="bio"><p class="nm">Drü Collie</p><p class="rl">Owner · Creative and strategy director</p><p class="bl">Nearly 20 years helping organizations tell a clear story that earns trust.</p></div>' +
@@ -300,9 +316,14 @@
         '.cl{padding:150px 48px 64px;display:flex;align-items:center;justify-content:space-between;gap:56px}.cl .tx{flex:1 1 0}.mix{font-size:20px;line-height:1.6;font-weight:500;color:' + PETAL + ';margin-bottom:36px}.mix span{color:' + CLOUD + '}' +
         '.cl h2{font-size:116px;line-height:.88;letter-spacing:-.055em;font-weight:200}.cl h2 b{font-weight:800}.cl h2 i.dot{font-weight:800}.cl .sub{margin-top:36px;max-width:540px;font-size:20px;line-height:1.55;font-weight:300;color:' + MIST + '}.cl .cc{margin-top:28px;font-size:17px}.cl .cc a{font-weight:700}.cl .cc small{font-size:15px;color:' + MIST + ';margin-left:8px}' +
         '.disc{flex:0 0 400px;height:400px;border-radius:50%;background:' + FLAME + ';color:' + INK + ';text-decoration:none;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;gap:8px;transition:transform .5s cubic-bezier(.2,.7,.2,1)}.disc:hover{transform:scale(1.05)}.disc span{font-size:42px;font-weight:800;letter-spacing:-.04em;line-height:.95}.disc i{font-style:normal;font-size:36px;font-weight:800}' +
-        '.wm{padding:40px 32px 0}.foot{padding:36px 48px 40px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-size:14px;color:' + MIST + '}.foot b{color:' + CLOUD + '}' +
+        '.wm{padding:40px 32px 0}' +
+        '.fgrid{display:flex;gap:56px;margin-top:40px;padding:44px 48px 40px;border-top:1px solid rgba(251,252,254,.16)}.fcol{flex:1 1 0}.fcol.w{flex:1.5 1 0}' +
+        '.fcol .fh2{font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:' + PETAL + ';margin-bottom:16px}' +
+        '.fcol a,.fcol p{display:block;font-size:17px;line-height:1.5;color:' + CLOUD + ';text-decoration:none;margin-bottom:6px}.fcol a:hover{color:' + PETAL + '}' +
+        '.fcol .tl{font-size:26px;font-weight:800;letter-spacing:-.025em;line-height:1.15;margin-bottom:14px}.fcol .ds{max-width:380px;font-size:16px;font-weight:300;color:' + MIST + '}' +
+        '.fbot{display:flex;justify-content:space-between;gap:16px;padding:0 48px 36px;font-size:13px;color:' + MIST + '}' +
         '.is-m .faq{flex-direction:column;gap:40px;padding:88px 24px 96px}.is-m .fh{flex-basis:auto}.is-m .fh h2{font-size:56px}.is-m summary{font-size:18px;padding:20px 0}.is-m details p{font-size:17px}' +
-        '.is-m .cl{flex-direction:column;align-items:stretch;padding:64px 24px 48px}.is-m .cl h2{font-size:56px}.is-m .mix{font-size:17px}.is-m .cl .sub{font-size:18px}.is-m .disc{flex:0 0 260px;width:260px;height:260px;align-self:center}.is-m .disc span{font-size:28px}.is-m .wm{padding:24px 16px 0}.is-m .foot{flex-direction:column;padding:28px 24px 36px}';
+        '.is-m .cl{flex-direction:column;align-items:stretch;padding:64px 24px 48px}.is-m .cl h2{font-size:56px}.is-m .mix{font-size:17px}.is-m .cl .sub{font-size:18px}.is-m .disc{flex:0 0 260px;width:260px;height:260px;align-self:center}.is-m .disc span{font-size:28px}.is-m .wm{padding:24px 16px 0}.is-m .fgrid{flex-direction:column;gap:32px;margin-top:24px;padding:32px 24px 28px}.is-m .fcol .tl{font-size:22px}.is-m .fcol a,.is-m .fcol p{font-size:16px}.is-m .fbot{flex-direction:column;gap:6px;padding:0 24px 32px}';
     }
     html() {
       var q = FAQ.map(function (f, i) { return '<details' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
@@ -311,9 +332,20 @@
         '<h2 class="rise">Let\'s talk about your <b>next stage</b>' + DOT + '</h2><p class="sub">Tell us where you\'re headed, what\'s getting in the way, and what you want to build. In 20 minutes, you\'ll know whether we\'re the right partner.</p>' +
         '<p class="cc"><a class="ul" href="' + CHECK + '" target="_top">Not ready? Take the 5-minute Clarity Check →</a><small>Free · 13 questions · No email required</small></p></div>' +
         '<a class="disc" href="' + BOOK + '" target="_blank" rel="noopener"><span>Book a<br>20-minute call</span><i aria-hidden="true">→</i></a></div>' +
-        '<div class="wm">' + WORDMARK + '</div><div class="foot"><b>Big-picture thinking. Hands-on execution.</b><span>Nashville, Tennessee · <a class="ul" href="mailto:hello@bluecolliestudio.com">hello@bluecolliestudio.com</a></span><span>© 2026 Blue Collie Studio</span></div></section>';
+        '<div class="wm">' + WORDMARK + '</div>' +
+        '<div class="fgrid"><div class="fcol w"><p class="tl">Big-picture thinking' + DOT + '<br>Hands-on execution' + DOT + '</p><p class="ds">A strategy and creative studio in Nashville, Tennessee. Run by its owners, Renée and Drü Collie.</p></div>' +
+        '<nav class="fcol" aria-label="Footer"><p class="fh2">Explore</p><a href="/" target="_top" data-go="work">What we do</a><a href="/" target="_top" data-go="steps">How we work</a><a href="/" target="_top" data-go="owners">About</a><a href="' + CHURCH + '" target="_top">Churches &amp; Ministries</a><a href="' + CHECK + '" target="_top">The Clarity Check</a></nav>' +
+        '<div class="fcol"><p class="fh2">Talk with us</p><a href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><a href="/contact" target="_top">Contact</a><a href="tel:+16154790178">615.479.0178</a><a href="mailto:hello@bluecolliestudio.com">hello@bluecolliestudio.com</a></div></div>' +
+        '<div class="fbot"><span>© 2026 Blue Collie Studio</span><span>Nashville, Tennessee</span></div></section>';
     }
     after() {
+      var MAP = { work: 'bc-help,bc4-work', steps: 'bc-plan,bc4-steps', owners: 'bc-owners,bc4-owners' };
+      this.shadowRoot.querySelectorAll('[data-go]').forEach(function (a) {
+        a.addEventListener('click', function (e) {
+          var t = document.querySelector(MAP[a.getAttribute('data-go')]);
+          if (t) { e.preventDefault(); t.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+        });
+      });
       try {
         if (!document.getElementById('bc4-faq-ld')) {
           var s = document.createElement('script');
