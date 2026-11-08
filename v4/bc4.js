@@ -12,10 +12,21 @@
   var FONT = '<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500&display=swap" rel="stylesheet">';
   var DOT = '<i class="dot">.</i>';
   var INKDOT = '<i class="dot dk">.</i>';
+  /* Wix hosts its own copy of Plus Jakarta Sans (400-800 only). Load Google's full
+     family into the page under a private name so 200/300 and italics render. */
+  try {
+    if (!document.getElementById('bc4-font')) {
+      var fs = document.createElement('style'); fs.id = 'bc4-font'; document.head.appendChild(fs);
+      fetch('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,500&display=swap')
+        .then(function (r) { return r.text(); })
+        .then(function (t) { fs.textContent = t.replace(/font-family:\s*'Plus Jakarta Sans'/g, "font-family: 'BC Jakarta'"); })
+        .catch(function () {});
+    }
+  } catch (e) {}
   var BASE = [
     ':host{display:block;width:100%;height:100%;overflow:hidden;background:transparent}',
     '*{box-sizing:border-box;margin:0;padding:0}',
-    '.page{width:1280px;font-family:"Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:' + INK + '}',
+    '.page{width:1280px;font-family:"BC Jakarta","Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:' + INK + '}',
     '.page.is-m{width:390px}',
     '.page{display:flex;flex-direction:column}.page>*{flex-shrink:0}.page>:last-child{flex-grow:1}',
     'a{color:inherit}',
