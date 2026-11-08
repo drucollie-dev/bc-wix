@@ -214,7 +214,7 @@
         '.j3{font-size:124px;font-weight:200;letter-spacing:-.05em;transform:rotate(-2deg)}.j4{font-size:32px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;transform:rotate(7deg) translateY(-44px)}' +
         'h2{margin-top:36px;font-size:120px;line-height:.9;letter-spacing:-.055em;font-weight:200}h2 b{font-weight:800;color:' + PETAL + '}h2 i.dot{font-weight:800}' +
         '.two{margin-top:88px;display:flex;gap:80px;align-items:flex-start}.two p{flex:1 1 0}.body{font-size:21px;line-height:1.6;font-weight:300;color:' + MIST + '}.stake{font-size:34px;line-height:1.2;font-weight:700;letter-spacing:-.025em}' +
-        '.split{display:flex}.half{flex:1 1 0;min-height:600px;padding:64px 48px;display:flex;flex-direction:column;justify-content:space-between}.half p:first-child{font-size:17px;line-height:1.5;max-width:360px}' +
+        '.split{display:flex}.half{flex:1 1 0;min-height:0;padding:56px 48px 64px;display:flex;flex-direction:column;justify-content:flex-start;gap:44px}.half p:first-child{font-size:17px;line-height:1.5;max-width:360px}' +
         '.big{font-size:112px;line-height:.86;letter-spacing:-.06em}.lt{font-weight:200}.lt i.dot{font-weight:800}.hv{font-weight:800}.cloud .half-s{color:' + SLATE + '}' +
         '.is-m .iss{padding:56px 24px 56px}.is-m .j1{font-size:40px}.is-m .j2{font-size:28px;transform:rotate(4deg) translateY(-12px)}.is-m .j3{font-size:58px}.is-m .jum{gap:6px 12px}.is-m .j4{font-size:16px;transform:rotate(5deg) translateY(-4px)}' +
         '.is-m .jum{display:block;font-size:40px;font-weight:300;letter-spacing:-.035em;line-height:1.05}.is-m .jum span{display:inline;transform:none;font-size:inherit;font-weight:inherit;font-style:normal;letter-spacing:inherit;text-transform:none}' +
@@ -644,7 +644,7 @@
     Object.keys(M).forEach(function (n) { if (!customElements.get(p + n)) customElements.define(p + n, class extends M[n] {}); });
   });
 
-  var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
+  var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-issue2': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
   Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, TAGS[t]); });
 
   /* Aliases. The Home V4 page was duplicated from the old homepage, so its
