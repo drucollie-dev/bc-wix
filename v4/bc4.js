@@ -17,6 +17,7 @@
     '*{box-sizing:border-box;margin:0;padding:0}',
     '.page{width:1280px;font-family:"Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:' + INK + '}',
     '.page.is-m{width:390px}',
+    '.page{display:flex;flex-direction:column}.page>*{flex-shrink:0}.page>:last-child{flex-grow:1}',
     'a{color:inherit}',
     'i.dot{font-style:normal;color:' + FLAME + '}',
     'i.dot.dk{color:' + INK + '}',
@@ -58,7 +59,10 @@
         this.page = this.shadowRoot.querySelector('.page');
         this.after(m);
       }
-      this.page.style.zoom = String(w / (m === 'm' ? 390 : 1280));
+      var z = w / (m === 'm' ? 390 : 1280);
+      this.page.style.zoom = String(z);
+      var h = this.getBoundingClientRect().height;
+      this.page.style.minHeight = h ? (h / z) + 'px' : '';
     }
     css() { return ''; }
     html() { return ''; }
@@ -133,7 +137,7 @@
   /* 2 · TAGLINE BAND */
   class Band extends Base {
     css() {
-      return '.band{padding:30px 0;overflow:hidden;white-space:nowrap}.track{display:flex;width:max-content;animation:mq 42s linear infinite}@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}' +
+      return '.band{padding:30px 0;overflow:hidden;white-space:nowrap;display:flex;align-items:center}.track{display:flex;width:max-content;animation:mq 42s linear infinite}@keyframes mq{from{transform:translateX(0)}to{transform:translateX(-50%)}}' +
         '.grp{display:inline-flex;align-items:center;gap:40px;padding-right:40px;font-size:56px;letter-spacing:-.035em}.l{font-weight:200}.h{font-weight:800}' +
         '.is-m .band{padding:20px 0}.is-m .grp{font-size:32px;gap:22px;padding-right:22px}';
     }
