@@ -72,8 +72,12 @@
       }
       var z = w / (m === 'm' ? 390 : 1280);
       this.page.style.zoom = String(z);
+      /* Fill the box only when Wix gives it a fixed height. When the height is
+         auto, let the content set it, or the box can never shrink. */
+      this.page.style.minHeight = '';
       var h = this.getBoundingClientRect().height;
-      this.page.style.minHeight = h ? (h / z) + 'px' : '';
+      var n = this.page.getBoundingClientRect().height;
+      this.page.style.minHeight = h > n + 1 ? (h / z) + 'px' : '';
     }
     css() { return ''; }
     html() { return ''; }
