@@ -245,7 +245,7 @@
       var src = this.getAttribute('photo') || 'https://static.wixstatic.com/media/c7bcf6_dcd1d041e642445987f0099fccc32074~mv2.jpg';
       return '<section class="ph"><img src="' + src + '" alt="Renée and Drü Collie in conversation" loading="lazy"><div class="sc"></div><h2 class="rise">You\'ll work with<br>the owners' + DOT + '</h2></section>' +
         '<section class="cloud bios"><div class="bio"><p class="nm">Renée Collie</p><p class="rl">Owner · Lead marketing strategist · Your main contact</p><p class="bl">More than 20 years leading marketing for growing businesses and organizations.</p></div>' +
-        '<div class="bio"><p class="nm">Drü Collie</p><p class="rl">Owner · Creative and strategy director</p><p class="bl">Nearly 20 years helping organizations tell a clear story that earns trust.</p></div>' +
+        '<div class="bio"><p class="nm">Drü Collie</p><p class="rl">Owner · Creative and strategy director · AI Architect</p><p class="bl">Nearly 20 years helping organizations tell a clear story that earns trust.</p></div>' +
         '<div class="stats"><div><p class="n">2' + DOT + '</p><p>owners on every project</p></div><div><p class="n">1' + DOT + '</p><p>main contact, start to finish</p></div><div><p class="n">20' + DOT + '</p><p>minutes to know if we\'re a fit</p></div></div></section>';
     }
     static get observedAttributes() { return ['photo']; }
@@ -532,7 +532,7 @@
       var c = pk(this);
       return '<section class="ink hero"><p class="eb">' + c.eyebrow + '</p><h1 aria-label="' + plain(c.h1.join(' ')) + '"><span class="l">' + dt(c.h1[0]) + '</span><span class="h">' + dt(c.h1[1]) + '</span></h1>' +
         '<div class="hb"><div class="sub">' + c.heroBody.map(function (t) { return '<p>' + t + '</p>'; }).join('') + '</div>' +
-        '<div class="acts"><a class="btn" href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><p class="under">No handoffs. Straight to an owner.</p><a class="see ul" href="#" data-to="get">See how it works ↓</a></div></div>' +
+        '<div class="acts"><a class="btn" href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><p class="under">You work with an owner, start to finish.</p><a class="see ul" href="#" data-to="get">See how it works ↓</a></div></div>' +
         '<div class="lad" aria-hidden="true"><span class="chip"><b>1</b>Say it clearly</span><span class="chip"><b>2</b>Hand it over</span><span class="chip"><b>3</b>Keep it moving</span></div></section>';
     }
     after() { goTo(this.shadowRoot, this); }
@@ -647,6 +647,8 @@
   /* Unique tag for the story block with the owners photo, so it never loses the
      first-definition race to an older pinned script on the same page. */
   if (!customElements.get('bc4-story')) customElements.define('bc4-story', class extends PStory {});
+  if (!customElements.get('bc4-hero2')) customElements.define('bc4-hero2', class extends PHero {});
+  if (!customElements.get('bc4-owners2')) customElements.define('bc4-owners2', class extends Owners {});
 
   var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-issue2': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
   Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, TAGS[t]); });
