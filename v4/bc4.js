@@ -210,11 +210,12 @@
         '.split{display:flex}.half{flex:1 1 0;min-height:600px;padding:64px 48px;display:flex;flex-direction:column;justify-content:space-between}.half p:first-child{font-size:17px;line-height:1.5;max-width:360px}' +
         '.big{font-size:112px;line-height:.86;letter-spacing:-.06em}.lt{font-weight:200}.lt i.dot{font-weight:800}.hv{font-weight:800}.cloud .half-s{color:' + SLATE + '}' +
         '.is-m .iss{padding:88px 24px 88px}.is-m .j1{font-size:40px}.is-m .j2{font-size:28px;transform:rotate(4deg) translateY(-12px)}.is-m .j3{font-size:58px}.is-m .jum{gap:6px 12px}.is-m .j4{font-size:16px;transform:rotate(5deg) translateY(-4px)}' +
+        '.is-m .jum{display:block;font-size:40px;font-weight:300;letter-spacing:-.035em;line-height:1.05}.is-m .jum span{display:inline;transform:none;font-size:inherit;font-weight:inherit;font-style:normal;letter-spacing:inherit;text-transform:none}' +
         '.is-m h2{font-size:52px}.is-m .two{flex-direction:column;gap:32px;margin-top:48px}.is-m .body{font-size:18px}.is-m .stake{font-size:26px}' +
         '.is-m .split{flex-direction:column}.is-m .half{min-height:380px;padding:48px 24px}.is-m .big{font-size:60px}';
     }
     html() {
-      return '<section class="ink iss"><p class="jum" aria-label="Stop doing more marketing."><span class="j1" aria-hidden="true">Stop</span><span class="j2" aria-hidden="true">doing</span><span class="j3" aria-hidden="true">more</span><span class="j4" aria-hidden="true">marketing</span></p>' +
+      return '<section class="ink iss"><p class="jum" aria-label="Stop doing more marketing."><span class="j1" aria-hidden="true">Stop</span> <span class="j2" aria-hidden="true">doing</span> <span class="j3" aria-hidden="true">more</span> <span class="j4" aria-hidden="true">marketing</span></p>' +
         '<h2 class="rise">Start making it <b>work together</b>' + DOT + '</h2>' +
         '<div class="two"><p class="body">Most organizations don\'t have a marketing problem. They have an alignment problem. The brand says one thing, the website says another, and the campaigns chase a third. More tactics just add more noise.</p><p class="stake">When people can\'t tell why you\'re the right choice, they choose someone easier to understand' + DOT + '</p></div></section>' +
         '<section class="split" aria-label="Big-picture thinking. Hands-on execution."><div class="half cloud"><p class="half-s">We see the whole thing: your brand, your message, your website, and how people find you.</p><p class="big lt rise">Big-picture thinking' + DOT + '</p></div>' +
