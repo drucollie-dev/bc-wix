@@ -495,7 +495,7 @@
   };
   var MAPITEMS = ['What we heard about your team and your week', 'The jobs we could hand over, each one in plain words', "For each: what we'd build, what we'd need from you, and what stays with your people", 'A plain note on how ready your message is', 'Our suggestion for where to start, and the order after that', 'Other ways we can help, like message work or an ongoing partner'];
   var ILLUS = 'Illustration of how it works. Not a client result.';
-  function pk(el) { return el.localName.indexOf('bc4n-') === 0 ? PG.n : PG.c; }
+  function pk(el) { var n = el.localName; if (n.indexOf('bc4n-') === 0) return PG.n; if (n.indexOf('bc4c-') === 0) return PG.c; return /nonprofit/i.test(location.pathname) ? PG.n : PG.c; }
   function dt(s, ink) { return String(s).replace(/\.(?=\s|<|$)/g, ink ? INKDOT : DOT); }
   function hh(a, ink) { return dt(a[0], ink) + '<br><b>' + dt(a[1], ink) + '</b>'; }
   function ps(a, cls) { return a.map(function (t) { return '<p class="b' + (cls ? ' ' + cls : '') + '">' + t + '</p>'; }).join(''); }
@@ -652,6 +652,12 @@
      to edit, so each old tag maps to the V4 section that now sits in its slot.
      Only the Server URL needs to change on those elements. */
   var ALIAS = { 'bc-band': Band, 'bc-ways': Problem, 'bc-fit': Issue, 'bc-owners': Owners, 'bc-help': Work, 'bc-plan': Steps, 'bc-close': Close, 'bc-hero': Hero };
+  /* New pages (Churches V4, Nonprofits V4) were also duplicated from Home V4, so
+     they carry the old tags too. On those page addresses the old tags map to the
+     page blocks instead, so nothing depends on editing the tag field in Wix. */
+  if (/churches-v4|nonprofits-v4|nonprofit/i.test(location.pathname)) {
+    ALIAS = { 'bc-hero': PHero, 'bc-ways': PStory, 'bc-fit': PWays, 'bc-owners': PGet, 'bc-help': PTrust, 'bc-close': PClose };
+  }
   Object.keys(ALIAS).forEach(function (t) {
     if (!customElements.get(t)) customElements.define(t, class extends ALIAS[t] {});
   });
