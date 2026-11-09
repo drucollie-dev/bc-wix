@@ -651,7 +651,7 @@
   if (!customElements.get('bc4-owners2')) customElements.define('bc4-owners2', class extends Owners {});
 
   var TAGS = { 'bc4-hero': Hero, 'bc4-band': Band, 'bc4-problem': Problem, 'bc4-issue': Issue, 'bc4-issue2': Issue, 'bc4-owners': Owners, 'bc4-work': Work, 'bc4-steps': Steps, 'bc4-close': Close };
-  Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, TAGS[t]); });
+  Object.keys(TAGS).forEach(function (t) { if (!customElements.get(t)) customElements.define(t, class extends TAGS[t] {}); });
 
   /* Aliases. The Home V4 page was duplicated from the old homepage, so its
      custom elements still carry the old tag names. Wix's tag field is fiddly
