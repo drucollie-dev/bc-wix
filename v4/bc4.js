@@ -115,7 +115,7 @@
     }
     html(m) {
       return '<section class="ink hero"><div class="field" id="field"></div>' +
-        '<div class="row"><p class="sub">Your brand, your message, your website and your marketing should all point the same direction. We help you see the big picture, then do the hands-on work to bring it to life.</p>' +
+        '<div class="row"><p class="sub">You do great work. We make sure the right people see it.</p>' +
         '<div class="acts"><button type="button" class="ghost" id="tg">Bring it together</button><a class="btn" href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a></div></div>' +
         '<div class="meta"><span>Nashville, Tennessee · Est. 2022</span><span id="clk"></span></div></section>';
     }
