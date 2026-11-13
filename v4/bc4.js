@@ -187,11 +187,11 @@
         '.spec{margin-top:16px;font-size:12px;line-height:1.5;color:' + SLATE + '}.spec p{display:flex;justify-content:space-between;gap:10px;border-top:1px solid ' + MIST + ';padding:4px 0}.spec p b{color:' + INK + ';font-weight:600;text-align:right}.spec p.n b{font-weight:800}' +
         '.bot{padding:88px 48px 150px}.st{font-size:76px;line-height:.98;letter-spacing:-.045em;font-weight:800}.st span{font-weight:200}.note{margin-top:18px;font-size:14px;color:' + SLATE + '}' +
         '.qs{margin-top:104px;display:flex;gap:40px;align-items:flex-start}.lead{flex:1 1 0;font-size:22px;line-height:1.3;font-weight:300;color:' + SLATE + '}' +
-        '.q{flex:1 1 0;padding-top:22px;border-top:3px solid ' + INK + ';font-size:28px;line-height:1.22;letter-spacing:-.02em;font-weight:500;font-style:italic}.q2{margin-top:56px}.q3{margin-top:112px}' +
+        '.q{flex:1 1 0;padding-top:22px;border-top:3px solid ' + INK + ';font-size:28px;line-height:1.22;letter-spacing:-.02em;font-weight:500;font-style:italic}.q2{margin-top:56px}.q3{margin-top:112px}.stk{margin-top:96px;max-width:920px;font-size:46px;line-height:1.1;font-weight:800;letter-spacing:-.04em;color:' + INK + '}' +
         '.is-m .top{padding:56px 24px 40px}.is-m .man{font-size:34px}.is-m .fz{text-underline-offset:8px;text-decoration-thickness:2px}' +
         '.is-m .desk{flex-wrap:wrap}.is-m .pn{flex:0 0 50%;height:230px;padding:14px 12px;border-left:0;border-top:1px solid ' + MIST + '}.is-m .pn:nth-child(even){border-left:1px solid ' + MIST + '}.is-m .pn:nth-child(-n+2){border-top:0}' +
         '.is-m .lb{font-size:11px}.is-m .lb b{margin-right:4px}.is-m .art{zoom:.56}.is-m .spec{margin-top:6px;font-size:10.5px}.is-m .spec p{display:block;padding:3px 0 0}.is-m .spec p:not(.n){display:none}.is-m .spec p.n span{display:none}.is-m .spec p b{text-align:left;word-break:break-all}' +
-        '.is-m .bot{padding:40px 24px 56px}.is-m .st{font-size:40px}.is-m .qs{flex-direction:column;gap:24px;margin-top:36px}.is-m .q{font-size:22px}.is-m .q2,.is-m .q3{margin-top:0}.is-m .lead{font-size:19px}';
+        '.is-m .bot{padding:40px 24px 56px}.is-m .st{font-size:40px}.is-m .qs{flex-direction:column;gap:24px;margin-top:36px}.is-m .q{font-size:22px}.is-m .q2,.is-m .q3{margin-top:0}.is-m .lead{font-size:19px}.is-m .stk{margin-top:40px;font-size:28px}';
     }
     html() {
       return '<section class="cloud"><div class="top"><p class="man rise">Your team is working hard. The website is live. Content goes out every week. And still, <em class="fz">the message is fuzzy</em>, the pieces don\'t connect, and nobody can say <b>what\'s moving you forward' + DOT + '</b></p></div>' +
@@ -202,7 +202,7 @@
         '<div class="pn"><p class="lb"><b>04</b>The newsletter</p><div class="art"><div class="card a4"><div class="nh">The North Side News!!</div><p class="sj">Issue #47: BIG updates inside!!!</p><div class="ln"><i></i><i></i><i></i></div><div class="nb"><i></i><span>READ MORE &gt;&gt;</span></div><div class="ln"><i></i><i></i></div></div></div><div class="spec"><p class="n"><span>Name</span><b>The North Side News</b></p><p><span>Type</span><b>Trebuchet</b></p><p><span>Color</span><b>Brick</b></p></div></div>' +
         '</div>' +
         '<div class="bot"><p class="st rise">Same organization' + DOT + '<br><span>Four different first impressions</span>' + DOT + '</p><p class="note">Northside is made up. Your version of it probably isn\'t.</p>' +
-        '<div class="qs"><p class="lead">Things we hear in the first five minutes of almost every call:</p><p class="q rise">We have a website, a logo, and a dozen tools. None of it tells one story.</p><p class="q q2 rise">I\'m tired of explaining what we do and still getting blank looks.</p><p class="q q3 rise">We do good work. It shouldn\'t be this hard for the right people to find us.</p></div></div></section>';
+        '<div class="qs"><p class="lead">Things we hear in the first five minutes of almost every call:</p><p class="q rise">We have a website, a logo, and a dozen tools. None of it tells one story.</p><p class="q q2 rise">I\'m tired of carrying the marketing and still getting blank looks.</p><p class="q q3 rise">We do good work. It shouldn\'t be this hard for the right people to find us.</p></div><p class="stk rise">When people can\'t tell why you\'re the right choice, they choose someone easier to understand' + DOT + '</p></div></section>';
     }
   }
 
@@ -213,7 +213,7 @@
         '.j1{font-size:88px;font-weight:800;letter-spacing:-.045em;transform:rotate(-5deg) translateY(12px)}.j2{font-size:54px;font-style:italic;font-weight:300;transform:rotate(4deg) translateY(-26px)}' +
         '.j3{font-size:124px;font-weight:200;letter-spacing:-.05em;transform:rotate(-2deg)}.j4{font-size:32px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;transform:rotate(7deg) translateY(-44px)}' +
         'h2{margin-top:36px;font-size:120px;line-height:.9;letter-spacing:-.055em;font-weight:200}h2 b{font-weight:800;color:' + PETAL + '}h2 i.dot{font-weight:800}' +
-        '.two{margin-top:88px;display:flex;gap:80px;align-items:flex-start}.two p{flex:1 1 0}.body{font-size:21px;line-height:1.6;font-weight:300;color:' + MIST + '}.stake{font-size:34px;line-height:1.2;font-weight:700;letter-spacing:-.025em}' +
+        '.two{margin-top:88px;display:flex;gap:80px;align-items:flex-start}.two p{flex:1 1 0}.body{max-width:780px;font-size:21px;line-height:1.6;font-weight:300;color:' + MIST + '}.stake{font-size:34px;line-height:1.2;font-weight:700;letter-spacing:-.025em}' +
         '.split{display:flex}.half{flex:1 1 0;min-height:0;padding:56px 48px 64px;display:flex;flex-direction:column;justify-content:flex-start;gap:44px}.half p:first-child{font-size:17px;line-height:1.5;max-width:360px}' +
         '.big{font-size:112px;line-height:.86;letter-spacing:-.06em}.lt{font-weight:200}.lt i.dot{font-weight:800}.hv{font-weight:800}.cloud .half-s{color:' + SLATE + '}' +
         '.is-m .iss{padding:56px 24px 56px}.is-m .j1{font-size:40px}.is-m .j2{font-size:28px;transform:rotate(4deg) translateY(-12px)}.is-m .j3{font-size:58px}.is-m .jum{gap:6px 12px}.is-m .j4{font-size:16px;transform:rotate(5deg) translateY(-4px)}' +
@@ -224,7 +224,7 @@
     html() {
       return '<section class="ink iss"><p class="jum" aria-label="Stop doing more marketing."><span class="j1" aria-hidden="true">Stop</span> <span class="j2" aria-hidden="true">doing</span> <span class="j3" aria-hidden="true">more</span> <span class="j4" aria-hidden="true">marketing</span></p>' +
         '<h2 class="rise">Start making it <b>work together</b>' + DOT + '</h2>' +
-        '<div class="two"><p class="body">Most organizations don\'t have a marketing problem. They have an alignment problem. The brand says one thing, the website says another, and the campaigns chase a third. More tactics just add more noise.</p><p class="stake">When people can\'t tell why you\'re the right choice, they choose someone easier to understand' + DOT + '</p></div></section>' +
+        '<div class="two"><p class="body">Most organizations don\'t have a marketing problem. They have an alignment problem. The brand says one thing, the website says another, and the campaigns chase a third. More tactics just add more noise.</p></div></section>' +
         '<section class="split" aria-label="Big-picture thinking. Hands-on execution."><div class="half cloud"><p class="half-s">We see the whole thing: your brand, your message, your website, and how people find you.</p><p class="big lt rise">Big-picture thinking' + DOT + '</p></div>' +
         '<div class="half petal"><p>Then we roll up our sleeves and do the work with you, start to finish.</p><p class="big hv rise">Hands-on execution' + INKDOT + '</p></div></section>';
     }
@@ -299,7 +299,7 @@
         '<ol><li><p>Book a 20-minute call' + DOT + '</p><p>Tell us where you\'re headed and what\'s in the way.</p></li><li><p>Get a clear plan' + DOT + '</p><p>We show you what matters most, what to do first, and what it will cost.</p></li><li><p>Watch it come together' + DOT + '</p><p>We do the work alongside you, and your marketing starts pulling in one direction.</p></li></ol></section>' +
         '<section class="doors"><a class="door ink" href="' + BOOK + '" target="_blank" rel="noopener"><p class="s">For growing businesses</p><p class="b rise">You\'ve outgrown the way you talk about yourself' + DOT + '</p><p class="go">Talk with us about your business →</p></a>' +
         '<a class="door petal" href="' + CHURCH + '" target="_top"><p class="s">For churches, ministries and nonprofits</p><p class="b rise">The life inside your work isn\'t showing up online' + INKDOT + '</p><p class="go">How we help churches and ministries →</p></a></section>' +
-        '<section class="cloud ch"><p class="rise">Picture it. Your team tells <b>one story</b> without a script. Visitors get what you do <em>in seconds.</em> And the right people <b>find you</b>, on Google and in AI answers' + DOT + '</p></section>';
+        '<section class="cloud ch"><p class="rise">Picture it. Your team tells <b>one story</b> without a script. Visitors get what you do <em>in seconds.</em> The right people <b>find you</b>, on Google and in AI answers. And you get back to <b>leading</b>' + DOT + '</p></section>';
     }
   }
 
