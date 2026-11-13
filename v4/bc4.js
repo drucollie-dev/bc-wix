@@ -380,7 +380,7 @@
       h1: ['Less admin.', 'More ministry.'],
       heroBody: ['You answered a call to serve people. Somehow the week fills up with newsletters, announcements and social posts.', 'We help your church say what matters, clearly. Then we build the systems that take the repeat work off your team.'],
       probH: ["Your church wasn't called to spend its week", 'on admin.'],
-      probBody: ['Sermon prep. Events. Volunteers. Newsletters. Social media. And a hundred small details that never make the calendar.', 'When the team is small, the same few people wear every hat. Important messages get rushed. Good ideas sit unfinished. The same announcement gets rebuilt from scratch every week.', 'Maybe someone on your team has tried ChatGPT or Claude. It helped a little, for one person, on one good day. Then it faded, because nothing was set up and nothing was shared.', 'Hiring another person may not be possible.'],
+      probBody: ['Sermon prep. Events. Volunteers. Newsletters. Social media. And a hundred small details that never make the calendar.', 'When the team is small, the same few people wear every hat. Important messages get rushed. Good ideas sit unfinished. The same announcement gets rebuilt from scratch every week.', 'Maybe someone on your team has tried ChatGPT or Claude. It helped a little, for one person, on one good day. Then it faded, because nothing was set up and nothing was shared.', 'Hiring another person may not be possible.'], cost: 'When the week fills up with admin, ministry gets the leftovers.',
       stake: 'But a lot of this work follows the same steps every week. Work like that can be handed to a system built for your church.',
       guideH: ["We'll carry", 'some of it.'],
       guideBody: ['Blue Collie Studio is a small studio run by its owners, Renée and Drü Collie.', 'Renée has more than 20 years leading marketing for growing businesses and organizations. Drü has spent nearly 20 years helping organizations tell a clear story that earns trust. Both have worked in nonprofit communications, fundraising and growth.', 'We do the strategy and the hands-on work. You work with the owners, start to finish.'],
@@ -416,7 +416,7 @@
       fitIntro: 'This may be a good fit if:',
       fit: ['Your staff are stretched across ministry and administration', 'Communications keep landing on the same overloaded people', "You want consistency without losing your church's personality", "You're curious about AI but don't want another technical project to manage", "You're ready to invest in a lasting fix"],
       fitNote: "You don't need an AI expert on staff. You do need one person who will own it after we hand it over.",
-      pic: 'Picture it. The newsletter draft is <b>waiting for your review.</b> Announcements sound like <b>your church,</b> every time. And your team spends the morning <b>with people.</b>',
+      pic: 'Picture it. The newsletter draft is <b>waiting for your review.</b> Announcements sound like <b>your church,</b> every time. And your team spends the morning <b>with people.</b>', idn: 'You get to lead people again, not paperwork.',
       faq: [
         ['Do you only do AI, or marketing too?', 'Both. We help churches get their message clear, build a brand and website, and lead or support ongoing marketing. The AI systems are one way we take work off your team. They work best on top of a clear message.'],
         ['Where do we start?', 'On a 20-minute call. Tell us where it hurts. Afterward we send you a Handover Map with your options, so you choose where to begin.'],
@@ -439,7 +439,7 @@
       h1: ['Less busywork.', 'More mission.'],
       heroBody: ['Your team is working hard to make a difference. Between donor emails, program stories and everyday admin, there is never enough time.', 'We help you say what you do, clearly. Then we build the systems that take the repeat communications work off your plate.'],
       probH: ['Your team has a mission to deliver.', 'The workload keeps growing.'],
-      probBody: ['In a lean nonprofit, everyone wears several hats.', 'The executive director is editing a donor email. The program team owes an impact update. Social media fell behind again.', 'This work deserves care. But the repeat work around it can eat the whole week.', 'Maybe someone has tried ChatGPT or Claude. It helped one person once, and nothing stuck.', 'Adding a staff position may not be possible.'],
+      probBody: ['In a lean nonprofit, everyone wears several hats.', 'The executive director is editing a donor email. The program team owes an impact update. Social media fell behind again.', 'This work deserves care. But the repeat work around it can eat the whole week.', 'Maybe someone has tried ChatGPT or Claude. It helped one person once, and nothing stuck.', 'Adding a staff position may not be possible.'], cost: 'When donors stop hearing from you, they drift.',
       stake: 'But much of this work follows the same steps every time. Work like that can be handed to a system built for your organization.',
       guideH: ['We know this', 'work.'],
       guideBody: ['Blue Collie Studio is a small studio run by its owners, Renée and Drü Collie.', 'Both have worked in nonprofit communications, fundraising and growth. Drü has spent nearly 20 years helping organizations tell a clear story that earns trust. Renée has more than 20 years leading marketing for growing businesses and organizations.', 'We do the strategy and the hands-on work. You work with the owners, start to finish.'],
@@ -475,7 +475,7 @@
       fitIntro: 'This may be a good fit if you:',
       fit: ['Have a lean team juggling several roles', 'Struggle to keep communications moving', 'Repeat similar drafting work every week or month', "Want to protect your voice and your donors' trust", 'Would rather invest in a better system than add more disconnected software'],
       fitNote: "You don't need to become an AI organization to benefit from AI. You need a repeatable job that solves a real problem.",
-      pic: "Picture it. The donor update is drafted from <b>facts your team approved.</b> Program stories sound like <b>you,</b> and they're true. And your director spends the week <b>with the mission.</b>",
+      pic: "Picture it. The donor update is drafted from <b>facts your team approved.</b> Program stories sound like <b>you,</b> and they're true. And your director spends the week <b>with the mission.</b>", idn: 'Donors hear from you often, and they trust what they hear.',
       faq: [
         ['Do you only do AI, or marketing too?', 'Both. We help nonprofits get their message clear, build a brand and website, and lead or support ongoing marketing. The AI systems are one way we take work off your team. They work best on top of a clear message.'],
         ['Where do we start?', 'On a 20-minute call. Tell us where it hurts. Afterward we send you a Handover Map with your options, so you choose where to begin.'],
@@ -548,7 +548,7 @@
     }
     html() {
       var c = pk(this), src = this.getAttribute('photo') || PHOTO;
-      return '<section class="cloud pg"><h2 class="rise">' + hh(c.probH) + '</h2><div class="two"><div class="l">' + ps(c.probBody) + '</div><p class="r">' + dt(c.stake) + '</p></div></section>' +
+      return '<section class="cloud pg"><h2 class="rise">' + hh(c.probH) + '</h2><div class="two"><div class="l">' + ps(c.probBody) + (c.cost ? '<p class="b bd">' + dt(c.cost, true) + '</p>' : '') + '</div><p class="r">' + dt(c.stake) + '</p></div></section>' +
         '<section class="petal pg"><div class="gd"><div class="t"><h2 class="rise">' + hh(c.guideH, true) + '</h2><div style="margin-top:40px">' + ps(c.guideBody) + '<p class="b bd">' + dt(c.guideBold, true) + '</p></div></div>' +
         '<div class="img"><img src="' + src + '" alt="Renée and Drü Collie in conversation" loading="lazy"></div></div>' +
         '<div class="stats"><div><p class="n">2' + INKDOT + '</p><p>owners on every project</p></div><div><p class="n">1' + INKDOT + '</p><p>main contact, start to finish</p></div><div><p class="n">20' + INKDOT + '</p><p>minutes to know if we\'re a fit</p></div></div></section>';
@@ -601,14 +601,14 @@
     css() {
       return PCSS + '.two{display:flex;gap:88px;margin-top:64px;align-items:flex-start}.two .l{flex:1 1 0}.two .r{flex:1 1 0}.two .r p{font-size:50px;line-height:1.05;letter-spacing:-.045em;font-weight:800;color:' + PETAL + '}' +
         '.fit{display:flex;gap:88px;align-items:flex-start}.fit .l{flex:1.1 1 0}.fit .r{flex:1 1 0;padding-top:12px}.fit .in{font-size:15px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:' + SLATE + ';margin-bottom:22px}.fit .nt{margin-top:32px;padding-top:24px;border-top:3px solid ' + INK + ';font-size:18px;line-height:1.55;color:' + SLATE + '}' +
-        '.pic{padding:130px 48px}.pic p{font-size:64px;line-height:1.06;letter-spacing:-.04em;font-weight:200;max-width:1120px}.pic b{font-weight:800}' +
-        '.is-m .two{flex-direction:column;gap:28px;margin-top:32px}.is-m .two .r p{font-size:32px}.is-m .fit{flex-direction:column;gap:32px}.is-m .fit .r{padding-top:0}.is-m .pic{padding:56px 24px}.is-m .pic p{font-size:34px}';
+        '.pic{padding:130px 48px}.pic p{font-size:64px;line-height:1.06;letter-spacing:-.04em;font-weight:200;max-width:1120px}.pic b{font-weight:800}.pic p.idn{margin-top:48px;font-size:34px;line-height:1.15;font-weight:700;letter-spacing:-.025em}' +
+        '.is-m .two{flex-direction:column;gap:28px;margin-top:32px}.is-m .two .r p{font-size:32px}.is-m .fit{flex-direction:column;gap:32px}.is-m .fit .r{padding-top:0}.is-m .pic{padding:56px 24px}.is-m .pic p{font-size:34px}.is-m .pic p.idn{margin-top:28px;font-size:22px}';
     }
     html() {
       var c = pk(this);
       return '<section class="ink pg"><h2 class="rise">' + hh(c.trustH) + '</h2><div class="two"><div class="l">' + ps(c.trustBody) + '</div><div class="r"><p>' + dt(c.trustBold) + '</p></div></div></section>' +
         '<section class="cloud pg"><div class="fit"><div class="l"><h2 class="rise">' + hh(c.fitH) + '</h2></div><div class="r"><p class="in">' + c.fitIntro + '</p>' + li(c.fit) + '<p class="nt">' + c.fitNote + '</p></div></div></section>' +
-        '<section class="petal pic"><p class="rise">' + dt(c.pic, true) + '</p></section>';
+        '<section class="petal pic"><p class="rise">' + dt(c.pic, true) + '</p>' + (c.idn ? '<p class="idn rise">' + dt(c.idn, true) + '</p>' : '') + '</section>';
     }
   }
 
