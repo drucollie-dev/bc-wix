@@ -126,21 +126,7 @@
       var scale = m === 'm' ? .5 : 1;
       field.innerHTML = WORDS.map(function (w, i) { return '<span class="w float" aria-hidden="true" data-i="' + i + '">' + w[0] + '</span>'; }).join('') + h1;
       this.aligned = false;
-      this.place = function () {
-        var cur = 0;
-        R.querySelectorAll('.w').forEach(function (el) {
-          var w = WORDS[+el.dataset.i];
-          if (self.aligned) {
-            el.className = 'w';
-            el.style.cssText = 'font-weight:600;left:' + cur + 'px;top:calc(100% - 4px);font-size:' + (m === 'm' ? 12 : 15) + 'px;transform:rotate(0);opacity:1;color:' + PETAL + ';' + (m === 'm' && cur > 330 ? 'opacity:0;' : '');
-            cur += Math.round(w[0].length * (m === 'm' ? 6.8 : 8.4)) + (m === 'm' ? 18 : 30);
-          } else {
-            el.className = 'w float';
-            el.style.cssText = WF[w[5]] + 'left:' + w[1] + '%;top:' + w[2] + '%;font-size:' + Math.round(w[3] * scale) + 'px;transform:rotate(' + w[4] + 'deg);opacity:' + w[6] + ';animation-delay:-' + (i0(w) * .7) + 's';
-          }
-        });
-        var tg = R.getElementById('tg'); if (tg) tg.textContent = self.aligned ? 'Scatter it again' : 'Bring it together';
-      };
+      this.place = function () { var LAND = ['Said clearly', 'Shown well', 'Found on Google', 'Found in AI search'], cur = 0, ln = 0, fw = field.clientWidth || 342, row = []; R.querySelectorAll('.w').forEach(function (el) { var k = +el.dataset.i, w = WORDS[k]; if (self.aligned) { var on = k < LAND.length; el.textContent = on ? LAND[k] : w[0]; el.className = 'w'; el.style.cssText = 'font-weight:600;white-space:nowrap;left:' + cur + 'px;top:calc(100% - 4px);font-size:' + (m === 'm' ? 13 : 15) + 'px;transform:rotate(0);opacity:' + (on ? 1 : 0) + ';color:' + PETAL + ';'; if (on) { var cx = self.cx || (self.cx = document.createElement('canvas').getContext('2d')); cx.font = '600 ' + (m === 'm' ? 13 : 15) + 'px ' + getComputedStyle(el).fontFamily; var ew = Math.ceil(cx.measureText(el.textContent).width); if (cur > 0 && (cur + ew > fw || (m === 'm' && k === 2))) { ln++; cur = 0; el.style.left = '0px'; } row.push([el, ln]); cur += ew + (m === 'm' ? 18 : 30); } } else { el.textContent = w[0]; el.className = 'w float'; el.style.cssText = WF[w[5]] + 'left:' + w[1] + '%;top:' + w[2] + '%;font-size:' + Math.round(w[3] * scale) + 'px;transform:rotate(' + w[4] + 'deg);opacity:' + w[6] + ';animation-delay:-' + (i0(w) * .7) + 's'; } }); row.forEach(function (r) { r[0].style.top = 'calc(100% - 4px - ' + ((ln - r[1]) * (m === 'm' ? 22 : 26)) + 'px)'; }); var tg = R.getElementById('tg'); if (tg) tg.textContent = self.aligned ? 'Scatter it again' : 'Bring it together'; };
       function i0(w) { return WORDS.indexOf(w); }
       this.place();
       R.getElementById('tg').addEventListener('click', function () { self.aligned = !self.aligned; self.place(); });
