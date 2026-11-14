@@ -503,7 +503,7 @@
   /* P2 · PROBLEM + GUIDE */
   class PStory extends Base {
     css() {
-      return PCSS + '.two{display:flex;gap:88px;margin-top:64px;align-items:flex-start}.two .l{flex:1 1 0}.two .r{flex:1 1 0;font-size:46px;line-height:1.08;letter-spacing:-.04em;font-weight:800}' +
+      return PCSS + '.two{display:flex;gap:88px;margin-top:64px;align-items:flex-start}.two .l{flex:1 1 0}.cloud.pg:first-child{background:#EEF1F6}.is-m .cloud.pg:first-child{padding-top:48px}.two .r{flex:1 1 0;font-size:46px;line-height:1.08;letter-spacing:-.04em;font-weight:800}' +
         '.gd{display:flex;gap:72px;align-items:stretch}.gd .t{flex:1 1 0}.gd .img{flex:0 0 480px;border-radius:32px;overflow:hidden;min-height:480px}.gd .img img{display:block;width:100%;height:100%;object-fit:cover;object-position:58% 28%}' +
         '.stats{display:flex;margin-top:72px;border-top:3px solid ' + INK + '}.stats div{flex:1 1 0;padding:26px 22px 0 0}.n{font-size:96px;font-weight:800;letter-spacing:-.06em;line-height:.9}.stats p+p{margin-top:12px;font-size:17px;color:' + INK + '}' +
         '.is-m .two{flex-direction:column;gap:28px;margin-top:32px}.is-m .two .r{font-size:30px}.is-m .gd{flex-direction:column;gap:32px}.is-m .gd .img{flex:none;width:100%;min-height:0;height:300px}.is-m .gd .img img{object-position:55% 18%}.is-m .stats{flex-direction:column;margin-top:40px}.is-m .stats div{padding:20px 0 0}.is-m .n{font-size:64px}';
