@@ -289,7 +289,7 @@
         '.is-m .cl{flex-direction:column;align-items:stretch;padding:64px 24px 48px}.is-m .cl h2{font-size:56px}.is-m .mix{font-size:17px}.is-m .cl .sub{font-size:18px}.is-m .disc{flex:0 0 260px;width:260px;height:260px;align-self:center}.is-m .disc span{font-size:28px}.is-m .wm{padding:24px 16px 0}.is-m .fgrid{flex-direction:column;gap:32px;margin-top:24px;padding:32px 24px 28px}.is-m .fcol .tl{font-size:22px}.is-m .fcol a,.is-m .fcol p{font-size:16px}.is-m .fbot{flex-direction:column;gap:6px;padding:0 24px 32px}';
     }
     html() {
-      var q = FAQ.map(function (f, i) { return '<details' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
+      var q = FAQ.map(function (f, i) { return '<details name="bcfaq"' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
       return '<section class="cloud faq"><div class="fh"><h2>Straight answers' + DOT + '</h2><p>Don\'t see yours? Ask us on a 20-minute call.</p></div><div class="fq">' + q + '</div></section>' +
         '<section class="ink"><div class="cl"><div class="tx"><p class="mix">brand · message · website · SEO · GEO · social · campaigns · email · <span>all pointing one way</span></p>' +
         '<h2 class="rise">Let\'s talk about your <b>next stage</b>' + DOT + '</h2><p class="sub">Tell us where you\'re headed, what\'s getting in the way, and what you want to build. In 20 minutes, you\'ll know whether we\'re the right partner.</p>' +
@@ -568,7 +568,7 @@
     }
     html() {
       var c = pk(this);
-      var q = c.faq.map(function (f, i) { return '<details' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
+      var q = c.faq.map(function (f, i) { return '<details name="bcfaq"' + (i === 0 ? ' open' : '') + '><summary><span>' + f[0] + '</span><b aria-hidden="true">+</b></summary><p>' + f[1] + '</p></details>'; }).join('');
       return '<section class="cloud faq"><div class="fh"><h2>Straight answers' + DOT + '</h2><p>Don\'t see yours? Ask us on a 20-minute call.</p></div><div class="fq">' + q + '</div></section>' +
         '<section class="cloud part"><h3>' + c.partH + '</h3><div class="pb"><p>' + c.partBody + '</p><a class="ul" href="/contact" target="_top">Explore a partnership →</a></div></section>' +
         '<section class="ink"><div class="cl"><div class="tx"><h2 class="rise">' + dt(c.closeH[0]) + ' <b>' + dt(c.closeH[1]) + '</b></h2><p class="sub">' + c.closeSub + '</p><p class="cc">You\'ll work directly with an owner.</p><p class="cc"><a class="ul" href="' + CHECK + '" target="_top">' + c.chk + '</a><small>Free · Written by the owners · Delivered in 3 business days</small></p></div>' +
