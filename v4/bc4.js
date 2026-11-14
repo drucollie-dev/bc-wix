@@ -111,11 +111,11 @@
         '.ghost{background:transparent;border:1px solid rgba(251,252,254,.35);color:' + CLOUD + ';font:inherit;font-size:14px;font-weight:600;padding:12px 18px;border-radius:999px;cursor:pointer;min-height:44px}' +
         '.meta{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding:18px 0 24px;border-top:1px solid rgba(251,252,254,.14);font-size:14px;color:' + MIST + '}' +
         '.is-m .hero{padding:24px 24px 0;min-height:0}.is-m .field{min-height:300px}.is-m h1{font-size:50px;letter-spacing:-.055em}.is-m .out{-webkit-text-stroke:1.5px ' + CLOUD + '}' +
-        '.is-m .row{flex-direction:column;align-items:stretch;padding:20px 0 24px}.is-m .sub{font-size:18px;flex-basis:auto}.is-m .acts{flex-direction:column;align-items:stretch}.is-m .acts .btn{width:100%}.is-m .ghost{display:none}.is-m .meta{flex-direction:column;font-size:13px}';
+        '.is-m .row{flex-direction:column;align-items:stretch;padding:34px 0 24px}.is-m .sub{font-size:18px;flex-basis:auto}.is-m .acts{flex-direction:column;align-items:stretch}.is-m .acts .btn{width:100%}.is-m .ghost{display:none}.is-m .meta{flex-direction:column;font-size:13px}';
     }
     html(m) {
       return '<section class="ink hero"><div class="field" id="field"></div>' +
-        '<div class="row"><p class="sub">You do great work. We make sure the right people see it.</p>' +
+        '<div class="row"><p class="sub"><b style="font-weight:500;color:' + CLOUD + '">Brand, website and marketing for growing businesses, churches and nonprofits.</b> You do great work. We make sure the right people see it.</p>' +
         '<div class="acts"><button type="button" class="ghost" id="tg">Bring it together</button><a class="btn" href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a></div></div>' +
         '<div class="meta"><span>Nashville, Tennessee · Est. 2022</span><span id="clk"></span></div></section>';
     }
