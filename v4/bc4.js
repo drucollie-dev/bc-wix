@@ -253,7 +253,7 @@
 
   /* 8 · FAQ + CLOSE */
   var FAQ = [
-    ['What does Blue Collie Studio do?', 'Blue Collie Studio is a founder-led strategy and creative studio in Nashville. We help growing businesses, churches, and nonprofits get clear on their message, build a brand and website that earn trust, and get found in Google and AI search. We do the strategy and the hands-on work.'],
+    ['What does Blue Collie Studio do?', 'Blue Collie Studio is a founder-led strategy and creative studio in Nashville. We serve the businesses people only hire once, like custom home builders, architects, estate attorneys and private medical practices, plus churches and nonprofits. We help them get clear on their message, build a brand and website that earn trust, and get found in Google and AI search. We do the strategy and the hands-on work.'],
     ['What is GEO, and do we need it?', 'GEO stands for Generative Engine Optimization. It helps your organization show up when people ask AI tools like ChatGPT, Gemini, or Perplexity for a recommendation. If the people you want to reach ask AI for recommendations in your field, GEO helps you show up in the answer. It works alongside SEO, not instead of it.'],
     ['Who will we work with?', 'You\'ll work with Renée and Drü directly. Renée is your main contact. When a project needs extra specialists, we bring them in and stay accountable for the work.'],
     ['Do you only work with churches and nonprofits?', 'No. We work across industries, from custom home builders to a Medicare insurance company. Churches and nonprofits are a specialty, not a limit.'],
