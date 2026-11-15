@@ -306,7 +306,7 @@
         });
       });
       try {
-        if (!document.getElementById('bc4-faq-ld')) {
+        if (!document.getElementById('bc4-faq-ld') && document.documentElement.innerHTML.indexOf('FAQPage') < 0) {
           var s = document.createElement('script');
           s.type = 'application/ld+json'; s.id = 'bc4-faq-ld';
           s.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: FAQ.map(function (f) { return { '@type': 'Question', name: f[0], acceptedAnswer: { '@type': 'Answer', text: f[1] } }; }) });
@@ -577,7 +577,7 @@
     after() {
       var c = pk(this), id = 'bc4-faq-ld-' + c.key;
       try {
-        if (!document.getElementById(id)) {
+        if (!document.getElementById(id) && document.documentElement.innerHTML.indexOf('FAQPage') < 0) {
           var s = document.createElement('script');
           s.type = 'application/ld+json'; s.id = id;
           s.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: c.faq.map(function (f) { return { '@type': 'Question', name: f[0], acceptedAnswer: { '@type': 'Answer', text: plain(f[1]) } }; }) });
