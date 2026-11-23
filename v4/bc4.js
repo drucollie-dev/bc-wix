@@ -266,7 +266,7 @@
   function FOOT() {
     return '<div class="wm">' + WORDMARK + '</div>' +
         '<div class="fgrid"><div class="fcol w"><p class="tl">Big-picture thinking' + DOT + '<br>Hands-on execution' + DOT + '</p><p class="ds">A strategy and creative studio in Nashville, Tennessee. Run by its owners, Renée and Drü Collie.</p></div>' +
-        '<nav class="fcol" aria-label="Footer"><p class="fh2">Explore</p><a href="/" target="_top" data-go="work">What we do</a><a href="/" target="_top" data-go="steps">How we work</a><a href="/" target="_top" data-go="owners">About</a><a href="' + CHURCH + '" target="_top">Churches &amp; Ministries</a><a href="/nonprofits" target="_top">Nonprofits</a><a href="' + CHECK + '" target="_top">The Clarity Check</a></nav>' +
+        '<nav class="fcol" aria-label="Footer"><p class="fh2">Explore</p><a href="/#comp-mw79p2d94" target="_top">What we do</a><a href="/#comp-mw79p2db" target="_top">How we work</a><a href="/#comp-mw79p2d5" target="_top">About</a><a href="' + CHURCH + '" target="_top">Churches &amp; Ministries</a><a href="/nonprofits" target="_top">Nonprofits</a><a href="' + CHECK + '" target="_top">The Clarity Check</a></nav>' +
         '<div class="fcol"><p class="fh2">Talk with us</p><a href="' + BOOK + '" target="_blank" rel="noopener">Book a 20-minute call</a><a href="/contact" target="_top">Contact</a><a href="tel:+16154790178">615.479.0178</a><a href="mailto:hello@bluecolliestudio.com">hello@bluecolliestudio.com</a></div></div>' +
         '<div class="fbot"><span>© 2026 Blue Collie Studio</span><span>Nashville, Tennessee</span></div></section>';
   }
