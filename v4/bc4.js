@@ -206,7 +206,7 @@
       return '.work{padding:150px 48px}h2{font-size:120px;line-height:.88;letter-spacing:-.055em;font-weight:200;margin-bottom:80px}h2 b{font-weight:800}h2 i.dot{font-weight:800}' +
         '.grid{display:flex;flex-wrap:wrap;gap:20px}.t{border-radius:32px;padding:44px;display:flex;flex-direction:column;justify-content:space-between;gap:36px;overflow:hidden;text-decoration:none;transition:transform .4s cubic-bezier(.2,.7,.2,1)}a.t:hover{transform:translateY(-6px)}' +
         '.w7{flex:0 0 calc(58.333% - 10px);min-height:580px}.w5{flex:0 0 calc(41.667% - 10px);min-height:580px}.r2{min-height:540px}' +
-        '.tt{font-size:64px;font-weight:800;letter-spacing:-.05em;line-height:.95}.td{margin-top:16px;max-width:440px;font-size:18px;line-height:1.55}.cloud .td{color:' + SLATE + '}' +
+        '.tt{font-size:64px;font-weight:800;letter-spacing:-.05em;line-height:.95}.cta{margin-top:24px;font-size:17px;font-weight:700;letter-spacing:-.01em;color:' + INK + ';text-decoration:underline;text-decoration-color:rgba(8,31,59,.3);text-underline-offset:5px;text-decoration-thickness:2px}a.t:hover .cta{text-decoration-color:currentColor}.td{margin-top:16px;max-width:440px;font-size:18px;line-height:1.55}.cloud .td{color:' + SLATE + '}' +
         '.card{border-radius:18px;box-shadow:0 30px 60px rgba(8,31,59,.25)}' +
         '.ba{align-self:flex-end;width:100%;max-width:430px;padding:26px;background:' + INK + ';color:' + CLOUD + ';transform:rotate(-2deg)}.ba .k{font-size:13px;font-weight:600;color:' + MIST + ';margin-bottom:10px}.ba .k2{color:' + PETAL + '}' +
         '.ba .old{font-size:16px;line-height:1.4;color:' + MIST + ';text-decoration:line-through;text-decoration-color:' + FLAME + ';text-decoration-thickness:2px;margin-bottom:20px}.ba .new{font-size:25px;line-height:1.15;font-weight:800;letter-spacing:-.03em}' +
@@ -220,12 +220,12 @@
     }
     html() {
       return '<section class="ink work"><h2 class="rise">The right pieces' + DOT + '<br><b>Working together' + DOT + '</b></h2><div class="grid">' +
-        '<a class="t w7 cloud" href="' + BOOK + '" target="_blank" rel="noopener"><div><p class="tt">Say it clearly' + DOT + '</p><p class="td">Strategy and messaging. Get clear on who you serve, what you offer, and why you\'re the right choice.</p></div>' +
+        '<a class="t w7 cloud" href="' + BOOK + '" target="_blank" rel="noopener"><div><p class="tt">Say it clearly' + DOT + '</p><p class="td">Strategy and messaging. Get clear on who you serve, what you offer, and why you\'re the right choice.</p><p class="cta">Book a 20-minute call <span aria-hidden="true">&rarr;</span></p></div>' +
         '<div class="card ba" aria-hidden="true"><p class="k">Before</p><p class="old">We provide holistic, best-in-class solutions that empower synergy across every touchpoint.</p><p class="k k2">After</p><p class="new">We help nonprofits turn donors into monthly givers' + DOT + '</p></div></a>' +
-        '<a class="t w5 petal" href="' + BOOK + '" target="_blank" rel="noopener"><div><p class="tt">Show it well' + INKDOT + '</p><p class="td">Brand and website. Look as strong as the work you do, and make the next step obvious.</p></div>' +
+        '<a class="t w5 petal" href="' + BOOK + '" target="_blank" rel="noopener"><div><p class="tt">Show it well' + INKDOT + '</p><p class="td">Brand and website. Look as strong as the work you do, and make the next step obvious.</p><p class="cta">Book a 20-minute call <span aria-hidden="true">&rarr;</span></p></div>' +
         '<div class="card site" aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div><div class="shero"><p>Welcome home' + DOT + '</p><span class="pill"></span></div><div class="thumbs"><i></i><i></i><i></i></div></div></a>' +
         '<div class="t w5 r2 opt"><p class="td">Start with one piece, or bring us in for the long haul. Either way, you work with the owners.</p><div><p class="o1">One project' + DOT + '</p><p class="o2">One partner' + DOT + '</p></div></div>' +
-        '<a class="t w7 r2 cloud found" href="' + BOOK + '" target="_blank" rel="noopener"><div class="fl"><p class="tt">Get found' + DOT + '</p><p class="td">SEO, GEO and marketing. Show up when people search Google and when they ask AI.</p></div>' +
+        '<a class="t w7 r2 cloud found" href="' + BOOK + '" target="_blank" rel="noopener"><div class="fl"><p class="tt">Get found' + DOT + '</p><div><p class="td">SEO, GEO and marketing. Show up when people search Google and when they ask AI.</p><p class="cta">Book a 20-minute call <span aria-hidden="true">&rarr;</span></p></div></div>' +
         '<div class="card ai" aria-hidden="true"><p class="ask">Which nonprofits near us help families find housing?</p><p class="ans">A few trusted options nearby. <b>Your organization</b> is known for its clear intake process and weekly family nights.</p><p class="src">Source: your website</p></div></a>' +
         '</div></section>';
     }
