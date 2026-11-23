@@ -24,7 +24,7 @@
     }
   } catch (e) {}
   var BASE = [
-    ':host{display:block;width:100%;height:100%;overflow:hidden;background:transparent}',
+    ':host{display:block;width:100%;height:100%;overflow:clip;background:transparent}',
     '*{box-sizing:border-box;margin:0;padding:0}',
     '.page{width:1280px;font-family:"BC Jakarta","Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;color:' + INK + '}',
     '.page.is-m{width:390px}',
