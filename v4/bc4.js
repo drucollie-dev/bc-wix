@@ -146,8 +146,8 @@
         '.is-m .band{padding:20px 0}.is-m .grp{font-size:32px;gap:22px;padding-right:22px}';
     }
     html() {
-      var g = '<span class="grp"><span class="l">Big-picture thinking</span><span class="h">' + INKDOT + '</span><span class="h">Hands-on execution</span><span class="h">' + INKDOT + '</span><span class="l">Big-picture thinking</span><span class="h">' + INKDOT + '</span><span class="h">Hands-on execution</span><span class="h">' + INKDOT + '</span></span>';
-      return '<div class="petal band" role="img" aria-label="Big-picture thinking. Hands-on execution."><div class="track" aria-hidden="true">' + g + g + '</div></div>';
+      var g = '<span class="grp"><span class="l">One clear story</span><span class="h">' + INKDOT + '</span><span class="h">A website that proves it</span><span class="h">' + INKDOT + '</span><span class="l">Found on Google and in AI</span><span class="h">' + INKDOT + '</span><span class="h">One clear story</span><span class="h">' + INKDOT + '</span><span class="l">A website that proves it</span><span class="h">' + INKDOT + '</span><span class="h">Found on Google and in AI</span><span class="h">' + INKDOT + '</span></span>';
+      return '<div class="petal band" role="img" aria-label="One clear story. A website that proves it. Found on Google and in AI."><div class="track" aria-hidden="true">' + g + g + '</div></div>';
     }
   }
 
@@ -172,7 +172,7 @@
     html() {
       return '<section class="ink iss"><p class="jum" aria-label="Stop doing more marketing."><span class="j1" aria-hidden="true">Stop</span> <span class="j2" aria-hidden="true">doing</span> <span class="j3" aria-hidden="true">more</span> <span class="j4" aria-hidden="true">marketing</span></p>' +
         '<h2 class="rise">Start making it <b>work together</b>' + DOT + '</h2>' +
-        '<div class="two"><p class="body">Most organizations don\'t have a marketing problem. They have an alignment problem. The brand says one thing, the website says another, and the campaigns chase a third. More tactics just add more noise.</p></div></section>' +
+        '<div class="two"><p class="body">More tactics just add more noise. The fix is getting every piece to say the same thing.</p></div></section>' +
         '<section class="split" aria-label="Big-picture thinking. Hands-on execution."><div class="half cloud"><p class="half-s">We see the whole thing: your brand, your message, your website, and how people find you.</p><p class="big lt rise">Big-picture thinking' + DOT + '</p></div>' +
         '<div class="half petal"><p>Then we roll up our sleeves and do the work with you, start to finish.</p><p class="big hv rise">Hands-on execution' + INKDOT + '</p></div></section>';
     }
@@ -224,7 +224,7 @@
         '<div class="card ba" aria-hidden="true"><p class="k">Before</p><p class="old">We provide holistic, best-in-class solutions that empower synergy across every touchpoint.</p><p class="k k2">After</p><p class="new">We help nonprofits turn donors into monthly givers' + DOT + '</p></div></a>' +
         '<a class="t w5 petal" href="' + BOOK + '" target="_blank" rel="noopener"><div><p class="tt">Show it well' + INKDOT + '</p><p class="td">Brand and website. Look as strong as the work you do, and make the next step obvious.</p><p class="cta">Book a 20-minute call <span aria-hidden="true">&rarr;</span></p></div>' +
         '<div class="card site" aria-hidden="true"><div class="bar"><i></i><i></i><i></i></div><div class="shero"><p>Welcome home' + DOT + '</p><span class="pill"></span></div><div class="thumbs"><i></i><i></i><i></i></div></div></a>' +
-        '<div class="t w5 r2 opt"><p class="td">Start with one piece, or bring us in for the long haul. Either way, you work with the owners.</p><div><p class="o1">One project' + DOT + '</p><p class="o2">One partner' + DOT + '</p></div></div>' +
+        '<div class="t w5 r2 opt"><p class="td">Start with one piece, or bring us in for the long haul.</p><div><p class="o1">One project' + DOT + '</p><p class="o2">One partner' + DOT + '</p></div></div>' +
         '<a class="t w7 r2 cloud found" href="' + BOOK + '" target="_blank" rel="noopener"><div class="fl"><p class="tt">Get found' + DOT + '</p><div><p class="td">SEO, GEO and marketing. Show up when people search Google and when they ask AI.</p><p class="cta">Book a 20-minute call <span aria-hidden="true">&rarr;</span></p></div></div>' +
         '<div class="card ai" aria-hidden="true"><p class="ask">Which nonprofits near us help families find housing?</p><p class="ans">A few trusted options nearby. <b>Your organization</b> is known for its clear intake process and weekly family nights.</p><p class="src">Source: your website</p></div></a>' +
         '</div></section>';
