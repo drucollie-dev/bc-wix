@@ -157,7 +157,7 @@
   /* 4 · REAL ISSUE + TAGLINE SPLIT */
   class Issue extends Base {
     css() {
-      return '.iss{padding:150px 48px 136px}.jum{display:flex;flex-wrap:wrap;align-items:flex-end;gap:0 22px;color:rgba(251,252,254,.42);line-height:1}.jum span{display:inline-block}' +
+      return ':host{display:flex;flex-direction:column}.split{flex:1 0 auto}.iss{padding:150px 48px 136px}.jum{display:flex;flex-wrap:wrap;align-items:flex-end;gap:0 22px;color:rgba(251,252,254,.42);line-height:1}.jum span{display:inline-block}' +
         '.j1{font-size:88px;font-weight:800;letter-spacing:-.045em;transform:rotate(-5deg) translateY(12px)}.j2{font-size:54px;font-style:italic;font-weight:300;transform:rotate(4deg) translateY(-26px)}' +
         '.j3{font-size:124px;font-weight:200;letter-spacing:-.05em;transform:rotate(-2deg)}.j4{font-size:32px;font-weight:700;letter-spacing:.18em;text-transform:uppercase;transform:rotate(7deg) translateY(-44px)}' +
         'h2{margin-top:36px;font-size:120px;line-height:.9;letter-spacing:-.055em;font-weight:200}h2 b{font-weight:800;color:' + PETAL + '}h2 i.dot{font-weight:800}' +
